@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
 using RimWorld;
-using VanillaRacesExpandedSanguophage;
 using Verse;
-
-public class CompProperties_AbilityBloodSucking : CompProperties_AbilityEffect
+public class CompProperties_AbilityBloodSuckingBite : CompProperties_AbilityEffect
 {
     public float hemogenGain;
 
@@ -19,9 +17,9 @@ public class CompProperties_AbilityBloodSucking : CompProperties_AbilityEffect
 
     public IntRange bloodFilthToSpawnRange;
 
-    public CompProperties_AbilityBloodSucking()
+    public CompProperties_AbilityBloodSuckingBite()
     {
-        compClass = typeof(CompAbilityEffect_BloodSucking);
+        compClass = typeof(CompAbilityEffect_SanguofeederBite);
     }
 
     public override IEnumerable<string> ExtraStatSummary()

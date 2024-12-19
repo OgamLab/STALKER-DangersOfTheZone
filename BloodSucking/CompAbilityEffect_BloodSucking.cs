@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using RimWorld;
-using VanillaRacesExpandedSanguophage;
 using Verse;
 
 public class CompAbilityEffect_BloodSucking : CompAbilityEffect
@@ -42,7 +41,7 @@ public class CompAbilityEffect_BloodSucking : CompAbilityEffect
                 var sanguoFeedEffect = new CompAbilityEffect_SanguofeederBite
                 {
                     parent = this.parent,
-                    props = new CompProperties_AbilitySanguofeederBite() // Инициализация props
+                    props = new CompProperties_AbilityBloodSuckingBite() // Инициализация props
                 };
 
                 if (sanguoFeedEffect != null)

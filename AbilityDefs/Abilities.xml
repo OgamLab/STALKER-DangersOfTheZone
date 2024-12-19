@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>STLKR_BloodSucking</defName>
+		<label>sanguofeed</label>
+		<description>Bite the target and extract hemogen directly from their blood. The target will lose blood and will be horrified by the interaction. A fast-acting coagulant will seal the wound to prevent bleeding.\n\nCan target any living beings.</description>
+		<iconPath>UI/Icons/Genes/STLKR_BloodSucking</iconPath> <!--  === Texture Path Here === -->
+		<category>Sanguophage</category>
+		<displayOrder>110</displayOrder>
+		<warmupEffecter>Bloodfeed_Warmup</warmupEffecter>
+		<warmupStartSound>Bloodfeed_Cast</warmupStartSound>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>2</warmupTime>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetBloodfeeders>true</canTargetBloodfeeders>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="BloodSucking.CompProperties_AbilityBloodSuckingBite">
+				<hemogenGain>0.2</hemogenGain>
+				<bloodFilthToSpawnRange>1</bloodFilthToSpawnRange>
+				<resistanceGain>1</resistanceGain>
+				<thoughtDefToGiveTarget>STLKR_FedOn</thoughtDefToGiveTarget>
+				<opinionThoughtDefToGiveTarget>STLKR_FedOnDiablerie_Social</opinionThoughtDefToGiveTarget>
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>BloodSplash</fleckDef>
+			</li>
+			<li Class="CompProperties_AbilityRequiresCapacity">
+				<capacity>Eating</capacity>
+			</li>
+		</comps>
+	</AbilityDef>
+</Defs>
