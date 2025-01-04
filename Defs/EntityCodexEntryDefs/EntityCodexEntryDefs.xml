@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <EntityCodexEntryDef>
+    <defName>STLKR_FeralZombie</defName>
+    <label>feral zombie</label>
+    <description>Corpses reanimated by microscopic archites. Shamblers are slow, mindless, and will attack relentlessly. Unless captured, shamblers die from metabolic exhaustion after several days.</description>
+    <uiIconPath>UI/CodexEntries/Shambler</uiIconPath>
+    <category>Basic</category>
+    <discoveredResearchProjects>
+      <li>SummonShamblers</li>
+    </discoveredResearchProjects>
+    <provocationIncidents>
+      <li>SmallFeralZombieSwarm</li>
+      <li>FeralZombieSwarm</li>
+      <li>FeralZombieAssault</li>
+    </provocationIncidents>
+    <orderInCategory>400</orderInCategory>
+  </EntityCodexEntryDef>
+
+</Defs>

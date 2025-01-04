@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <IncidentDef ParentName="EntitySwarmBase">
+    <defName>FeralZombieSwarm</defName>
+    <label>feral swarm</label>
+    <workerClass>IncidentWorker_FeralZombieSwarm</workerClass>
+    <baseChance>2</baseChance>
+    <earliestDay>0</earliestDay>
+    <minAnomalyThreatLevel>0</minAnomalyThreatLevel>
+  </IncidentDef>
+
+  <IncidentDef ParentName="EntitySwarmBase">
+    <defName>SmallFeralZombieSwarm</defName>
+    <label>feral swarm</label>
+    <workerClass>IncidentWorker_FeralZombieSwarmSmall</workerClass>
+    <baseChance>1</baseChance>
+    <category>ThreatSmall</category>
+    <letterLabel>Shamblers approach</letterLabel>
+    <letterText>A small group of {0} shambling corpses is approaching. The inhuman force that animates them is fading, so they will collapse within a day.\n\nIf you can capture one, you can study it for anomaly knowledge. Otherwise, they might not notice you if you leave them alone.</letterText>
+    <letterDef>ThreatSmall</letterDef>
+  </IncidentDef>
+  
+  <IncidentDef ParentName="AnomalyIncidentBase">
+    <defName>FeralZombieAssault</defName>
+    <label>feral assault</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_FeralZombieAssault</workerClass>
+    <baseChance>2</baseChance>
+    <minAnomalyThreatLevel>0</minAnomalyThreatLevel>
+    <earliestDay>20</earliestDay>
+    <minRefireDays>10</minRefireDays>
+    <category>ThreatBig</category>
+    <minThreatPoints>250</minThreatPoints>
+    <pointsScaleable>true</pointsScaleable>
+    <tale>Raid</tale>
+  </IncidentDef>
+
+</Defs>

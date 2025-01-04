@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BasePawn">
+    <defName>STLKR_FeralZombie</defName>
+    <label>Feral Zombie</label>
+    <description>The Brain Scorcher strips its victim of mind and reason, leaving only an empty, mindless shell. The brainless bodies then turn into zombies, following only the most basic instincts, wandering aimlessly around the Zone without weapons or clothing. Zombies are little more than sluggish walking corpses, caring only about food and sleep. They eat and drink just about anything they can get their claws on, hence they are virtually soaked in radiation and toxic waste. Usually they roam the Zone without any apparent purpose or just lie corpse-like in abandoned buildings. However, as soon as they sense the presence of a human being, they attack immediately. Experienced stalkers have learned to avoid them if they can.</description>
+    <statBases>
+      <MoveSpeed>4.2</MoveSpeed>
+      <LeatherAmount>12</LeatherAmount>
+      <ComfyTemperatureMin>-28</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <FilthRate>4</FilthRate>
+    </statBases>
+
+    <race>
+      <body>Human</body>
+      <baseHungerRate>2</baseHungerRate>
+      <baseHealthScale>1.6</baseHealthScale>
+      <leatherDef>Leather_Human</leatherDef>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <thinkTreeConstant>Shambler</thinkTreeConstant> <!-- ThinkTree -->
+      <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
+      <alwaysViolent>true</alwaysViolent>
+      <baseBodySize>2</baseBodySize>
+      <intelligence>ToolUser</intelligence>
+      <needsRest>true</needsRest>
+      <bloodDef>Filth_DarkBlood</bloodDef>
+      <bleedRateFactor>0.5</bleedRateFactor>
+      <fleshType>EntityFlesh</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <hasGenders>false</hasGenders>
+      <lifeExpectancy>850</lifeExpectancy>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <trainability>None</trainability>
+      <canBecomeShambler>false</canBecomeShambler>
+			<lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundCall>Pawn_Gorehulk_Call</soundCall>
+          <soundWounded>Pawn_Gorehulk_Wounded</soundWounded>
+          <soundAttack>Pawn_Gorehulk_Attack</soundAttack>
+          <soundDeath>Pawn_Gorehulk_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <hediffGiverSets>
+        <li>AnomalyEntity</li>
+      </hediffGiverSets>
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+    </race>
+    <comps>
+      <li Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>60</baseEscapeIntervalMtbDays>
+      </li>
+      <li Class="CompProperties_AttachPoints">
+        <!-- This thing has alternateGraphics, and all of these points will need overrides in the PawnKindDef. -->
+        <points>
+          <li>
+            <offset>(-.4, 0, .4)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.4, 0, .5)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.3, 0, -.6)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.2, 0, -.7)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </points>
+      </li>
+      <li Class="CompProperties_ProducesBioferrite">
+        <bioferriteDensity>1.5</bioferriteDensity>
+      </li>
+      <li Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <knowledgeCategory>Basic</knowledgeCategory>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <anomalyKnowledge>2</anomalyKnowledge>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <labelNoLocation>fist</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <labelNoLocation>fist</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10.6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7.5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

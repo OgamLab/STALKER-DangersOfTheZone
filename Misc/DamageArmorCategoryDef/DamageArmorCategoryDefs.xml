@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <DamageArmorCategoryDef>
+    <defName>STLKR_Electrical</defName>
+    <multStat>ElectricalDamageMultiplier</multStat>
+    <armorRatingStat>ArmorRating_Electrical</armorRatingStat>
+  </DamageArmorCategoryDef>
+
+  <DamageArmorCategoryDef>
+    <defName>STLKR_Chemical</defName>
+    <multStat>ChemicalDamageMultiplier</multStat>
+    <armorRatingStat>ArmorRating_Chemical</armorRatingStat>
+  </DamageArmorCategoryDef>
+
+  <DamageArmorCategoryDef>
+    <defName>STLKR_Radiation</defName>
+    <multStat>RadiationDamageMultiplier</multStat>
+    <armorRatingStat>ArmorRating_Radiation</armorRatingStat>
+  </DamageArmorCategoryDef>
+
+  <DamageArmorCategoryDef>
+    <defName>STLKR_PSI</defName>
+    <multStat>PSIDamageMultiplier</multStat>
+    <armorRatingStat>ArmorRating_PSI</armorRatingStat>
+  </DamageArmorCategoryDef>
+</Defs>
