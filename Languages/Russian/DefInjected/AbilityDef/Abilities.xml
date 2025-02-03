@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <STLKR_BloodSucking.label>кровососание</STLKR_BloodSucking.label>
-<STLKR_BloodSucking.description>Укусите цель и извлеките гемоген прямо из ее крови. Цель потеряет кровь и ужаснется от взаимодействия. Быстродействующий коагулянт запечатает рану, чтобы предотвратить кровотечение.\n\nМожет быть нацелен на любое живое существо.</STLKR_BloodSucking.description>
+  <STLKR_BloodSucking.label>кровососание</STLKR_BloodSucking.label>
+  <STLKR_BloodSucking.description>Укусите цель и извлеките гемоген прямо из ее крови. Цель потеряет кровь и ужаснется от взаимодействия. Быстродействующий коагулянт запечатает рану, чтобы предотвратить кровотечение.\n\nМожет быть нацелен на любое живое существо.</STLKR_BloodSucking.description>
 
 
 </LanguageData>

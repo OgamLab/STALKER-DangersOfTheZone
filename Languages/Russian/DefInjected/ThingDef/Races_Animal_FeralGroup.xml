@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<STLKR_FeralZombie.label>Дикий зомби</STLKR_FeralZombie.label>
-<STLKR_FeralZombie.description>Выжигатель мозгов лишает свою жертву разума и рассудка, оставляя только пустую, безмозглую оболочку. Затем безмозглые тела превращаются в зомби, которые следуют только самым основным инстинктам, бесцельно бродят по Зоне без оружия и одежды. Зомби — это не более чем вялые ходячие трупы, заботящиеся только о еде и сне. Они едят и пьют практически все, что попадется им под когти, поэтому они фактически пропитаны радиацией и токсичными отходами. Обычно они бродят по Зоне без какой-либо видимой цели или просто лежат, как трупы, в заброшенных зданиях. Однако, как только они чувствуют присутствие человека, они немедленно атакуют. Опытные преследователи научились избегать их, если могут.</STLKR_FeralZombie.description>
-<STLKR_FeralZombie.tools.0.label>левый кулак</STLKR_FeralZombie.tools.0.label>
-<STLKR_FeralZombie.tools.1.label>правый кулак</STLKR_FeralZombie.tools.1.label>
-<STLKR_FeralZombie.tools.2.label>зубы</STLKR_FeralZombie.tools.2.label>
-<STLKR_FeralZombie.tools.3.label>голова</STLKR_FeralZombie.tools.3.label>
+  <STLKR_FeralZombie.label>Дикий зомби</STLKR_FeralZombie.label>
+  <STLKR_FeralZombie.description>Выжигатель мозгов лишает свою жертву разума и рассудка, оставляя только пустую, безмозглую оболочку. Затем безмозглые тела превращаются в зомби, которые следуют только самым основным инстинктам, бесцельно бродят по Зоне без оружия и одежды. Зомби — это не более чем вялые ходячие трупы, заботящиеся только о еде и сне. Они едят и пьют практически все, что попадется им под когти, поэтому они фактически пропитаны радиацией и токсичными отходами. Обычно они бродят по Зоне без какой-либо видимой цели или просто лежат, как трупы, в заброшенных зданиях. Однако, как только они чувствуют присутствие человека, они немедленно атакуют. Опытные преследователи научились избегать их, если могут.</STLKR_FeralZombie.description>
+  <STLKR_FeralZombie.tools.0.label>левый кулак</STLKR_FeralZombie.tools.0.label>
+  <STLKR_FeralZombie.tools.1.label>правый кулак</STLKR_FeralZombie.tools.1.label>
+  <STLKR_FeralZombie.tools.2.label>зубы</STLKR_FeralZombie.tools.2.label>
+  <STLKR_FeralZombie.tools.3.label>голова</STLKR_FeralZombie.tools.3.label>
 
 
 </LanguageData>

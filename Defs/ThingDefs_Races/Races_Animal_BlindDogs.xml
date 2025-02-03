@@ -129,6 +129,12 @@
   <PawnKindDef ParentName="AnimalKindBase" Name="BlindDogsKindBase" Abstract="True">
     <combatPower>120</combatPower>
     <ecoSystemWeight>0.50</ecoSystemWeight>
+	<wildGroupSize>2~10</wildGroupSize>
+	<startingHediffs>
+      <li>
+        <def>AbnormalFeeling</def>
+      </li>
+    </startingHediffs>
   </PawnKindDef>
 
 

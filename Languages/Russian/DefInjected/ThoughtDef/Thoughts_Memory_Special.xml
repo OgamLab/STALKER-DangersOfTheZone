@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<STLKR_FedOn.stages.0.label>кормил {0}</STLKR_FedOn.stages.0.label>
-<STLKR_FedOn.stages.0.description>Меня кормило ужасное существо, я думал, что умру!</STLKR_FedOn.stages.0.description>
+
+  <STLKR_FedOn.stages.0.label>кормил {0}</STLKR_FedOn.stages.0.label>
+  <STLKR_FedOn.stages.0.description>Меня кормило ужасное существо, я думал, что умру!</STLKR_FedOn.stages.0.description>
 
 
 </LanguageData>
