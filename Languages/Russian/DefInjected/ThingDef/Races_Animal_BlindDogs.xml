@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <BlindDog.label>Слепая собака</BlindDog.label>
+<BlindDog.description>Одинокие собаки не так уж опасны, но их стаи — настоящая заноза в заднице. Они нападают только если голодны... плохо то, что они почти всегда голодны. Если вы столкнулись с целой стаей, постарайтесь снять их с возвышенности, иначе они просто вас переедут.</BlindDog.description>
+<BlindDog.tools.0.label>левая лапа</BlindDog.tools.0.label>
+<BlindDog.tools.1.label>правая лапа</BlindDog.tools.1.label>
+<BlindDog.tools.3.label>голова</BlindDog.tools.3.label>
+
+</LanguageData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+
+  <!--========== Thin leathers ============-->
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_BlindDog</defName>
+    <label>Blind Dog leather</label>
+    <description>Densely covered with short and stiff fur, Blind Dog skins are one of the most useful, wide-ranging and large-scale effects available in the Zone. It is easily attached to armor even with light and simple threads, but remains quite durable, making it a mainstay for repairing medium-class armor. When used, it provides good protection against physical impacts and heat. The fur also provides good insulation from electricity, but like all skins, it accumulates more radioactive and harmful particles. It is recommended to consider it in radioactive and hazardous areas.</description>
+    <graphicData>
+      <color>(140,85,36)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.14</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(140,85,36)</color>
+      <commonality>0.25</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+
+</Defs>

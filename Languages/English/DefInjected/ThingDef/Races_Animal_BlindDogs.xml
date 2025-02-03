@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BlindDog.label>BlindDog</BlindDog.label>
+  <BlindDog.description>Lone canines aren't that dangerous, but packs of them are a real pain in the ass. They only attack if they're hungry... the bad thing is, they're almost always hungry. If you're up against a whole pack, try to pick them off from a high spot, else they'll just run you over.</BlindDog.description>
+  <BlindDog.tools.0.label>left claw</BlindDog.tools.0.label>
+  <BlindDog.tools.1.label>right claw</BlindDog.tools.1.label>
+  <BlindDog.tools.3.label>head</BlindDog.tools.3.label>
+
+
+</LanguageData>
