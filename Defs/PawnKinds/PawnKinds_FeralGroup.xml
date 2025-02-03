@@ -6,10 +6,11 @@
     <labelMale>feral zombie</labelMale>
     <labelFemale>feral zombie</labelFemale>
     <race>STLKR_FeralZombie</race>
+    <defaultFactionType>STLKR_FeralFaction</defaultFactionType>
     <alternateGraphicChance>0.833</alternateGraphicChance>
     <alternateGraphics>
       <li>
-        <texPath>Things/Pawn/Gorehulk/Gorehulk_B</texPath>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_F1</texPath>
         <attachPoints>
           <li>
             <offset>(-.4, 0, .4)</offset>
@@ -28,23 +29,23 @@
             <type>PlatformRestraint3</type>
           </li>
         </attachPoints>
-        <dessicatedTexPath>Things/Pawn/Gorehulk/Dessicated_Gorehulk</dessicatedTexPath>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
         <dessicatedGraphicData>
           <attachPoints>
             <li>
-              <offset>(-.35, 0, .3)</offset>
+              <offset>(-.4, 0, .4)</offset>
               <type>PlatformRestraint0</type>
             </li>
             <li>
-              <offset>(.4, 0, .15)</offset>
+              <offset>(.5, 0, .2)</offset>
               <type>PlatformRestraint1</type>
             </li>
             <li>
-              <offset>(.2, 0, -.6)</offset>
+              <offset>(.3, 0, -.6)</offset>
               <type>PlatformRestraint2</type>
             </li>
             <li>
-              <offset>(-.2, 0, -.6)</offset>
+              <offset>(-.2, 0, -.65)</offset>
               <type>PlatformRestraint3</type>
             </li>
           </attachPoints>
@@ -52,14 +53,14 @@
       </li>
 
       <li>
-        <texPath>Things/Pawn/Gorehulk/Gorehulk_C</texPath>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_F2</texPath>
         <attachPoints>
           <li>
-            <offset>(-.5, 0, .5)</offset>
+            <offset>(-.4, 0, .4)</offset>
             <type>PlatformRestraint0</type>
           </li>
           <li>
-            <offset>(.45, 0, .65)</offset>
+            <offset>(.5, 0, .2)</offset>
             <type>PlatformRestraint1</type>
           </li>
           <li>
@@ -71,31 +72,461 @@
             <type>PlatformRestraint3</type>
           </li>
         </attachPoints>
-        <dessicatedTexPath>Things/Pawn/Gorehulk/Dessicated_Gorehulk</dessicatedTexPath>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
         <dessicatedGraphicData>
           <attachPoints>
             <li>
-              <offset>(-.35, 0, .3)</offset>
+              <offset>(-.4, 0, .4)</offset>
               <type>PlatformRestraint0</type>
             </li>
             <li>
-              <offset>(.4, 0, .15)</offset>
+              <offset>(.5, 0, .2)</offset>
               <type>PlatformRestraint1</type>
             </li>
             <li>
-              <offset>(.2, 0, -.6)</offset>
+              <offset>(.3, 0, -.6)</offset>
               <type>PlatformRestraint2</type>
             </li>
             <li>
-              <offset>(-.2, 0, -.6)</offset>
+              <offset>(-.2, 0, -.65)</offset>
               <type>PlatformRestraint3</type>
             </li>
           </attachPoints>
         </dessicatedGraphicData>
       </li>
-      
+
       <li>
-        <texPath>Things/Pawn/Gorehulk/Gorehulk_D</texPath>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_F3</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.4, 0, .4)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .2)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.3, 0, -.6)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.2, 0, -.65)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.4, 0, .4)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .2)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.3, 0, -.6)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.2, 0, -.65)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_F4</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.4, 0, .4)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .2)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.3, 0, -.6)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.2, 0, -.65)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.4, 0, .4)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .2)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.3, 0, -.6)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.2, 0, -.65)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_F5</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.4, 0, .4)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .2)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.3, 0, -.6)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.2, 0, -.65)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.4, 0, .4)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .2)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.3, 0, -.6)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.2, 0, -.65)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_F6</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.4, 0, .4)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .2)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.3, 0, -.6)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.2, 0, -.65)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.4, 0, .4)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .2)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.3, 0, -.6)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.2, 0, -.65)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_Fe1</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_Fe2</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_Fe3</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_Fe4</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_Fe5</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_Fe6</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_M1</texPath>
         <attachPoints>
           <li>
             <offset>(-.35, 0, .5)</offset>
@@ -114,7 +545,7 @@
             <type>PlatformRestraint3</type>
           </li>
         </attachPoints>
-        <dessicatedTexPath>Things/Pawn/Gorehulk/Dessicated_Gorehulk</dessicatedTexPath>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
         <dessicatedGraphicData>
           <attachPoints>
               <li>
@@ -138,52 +569,10 @@
       </li>
 
       <li>
-        <texPath>Things/Pawn/Gorehulk/Gorehulk_E</texPath>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_M2</texPath>
         <attachPoints>
           <li>
-            <offset>(-.35, 0, .2)</offset>
-            <type>PlatformRestraint0</type>
-          </li>
-          <li>
-            <offset>(.5, 0, .35)</offset>
-            <type>PlatformRestraint1</type>
-          </li>
-          <li>
-            <offset>(.3, 0, -.8)</offset>
-            <type>PlatformRestraint2</type>
-          </li>
-          <li>
-            <offset>(-.2, 0, -.8)</offset>
-            <type>PlatformRestraint3</type>
-          </li>
-        </attachPoints>
-        <dessicatedTexPath>Things/Pawn/Gorehulk/Dessicated_Gorehulk</dessicatedTexPath>
-        <dessicatedGraphicData>
-          <attachPoints>
-            <li>
-              <offset>(-.35, 0, .3)</offset>
-              <type>PlatformRestraint0</type>
-            </li>
-            <li>
-              <offset>(.4, 0, .15)</offset>
-              <type>PlatformRestraint1</type>
-            </li>
-            <li>
-              <offset>(.2, 0, -.6)</offset>
-              <type>PlatformRestraint2</type>
-            </li>
-            <li>
-              <offset>(-.2, 0, -.6)</offset>
-              <type>PlatformRestraint3</type>
-            </li>
-          </attachPoints>
-        </dessicatedGraphicData>
-      </li>
-      <li>
-        <texPath>Things/Pawn/Gorehulk/Gorehulk_F</texPath>
-        <attachPoints>
-          <li>
-            <offset>(-.4, 0, .3)</offset>
+            <offset>(-.35, 0, .5)</offset>
             <type>PlatformRestraint0</type>
           </li>
           <li>
@@ -191,46 +580,735 @@
             <type>PlatformRestraint1</type>
           </li>
           <li>
-            <offset>(.4, 0, -.7)</offset>
+            <offset>(.5, 0, -.6)</offset>
             <type>PlatformRestraint2</type>
           </li>
           <li>
-            <offset>(-.4, 0, -.7)</offset>
+            <offset>(-.5, 0, -.6)</offset>
             <type>PlatformRestraint3</type>
           </li>
         </attachPoints>
-        <dessicatedTexPath>Things/Pawn/Gorehulk/Dessicated_Gorehulk</dessicatedTexPath>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+              <li>
+                <offset>(-.35, 0, .3)</offset>
+                <type>PlatformRestraint0</type>
+              </li>
+              <li>
+                <offset>(.4, 0, .15)</offset>
+                <type>PlatformRestraint1</type>
+              </li>
+              <li>
+                <offset>(.2, 0, -.6)</offset>
+                <type>PlatformRestraint2</type>
+              </li>
+              <li>
+                <offset>(-.2, 0, -.6)</offset>
+                <type>PlatformRestraint3</type>
+              </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_M3</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.35, 0, .5)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.3, 0, .5)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.5, 0, -.6)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.5, 0, -.6)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+              <li>
+                <offset>(-.35, 0, .3)</offset>
+                <type>PlatformRestraint0</type>
+              </li>
+              <li>
+                <offset>(.4, 0, .15)</offset>
+                <type>PlatformRestraint1</type>
+              </li>
+              <li>
+                <offset>(.2, 0, -.6)</offset>
+                <type>PlatformRestraint2</type>
+              </li>
+              <li>
+                <offset>(-.2, 0, -.6)</offset>
+                <type>PlatformRestraint3</type>
+              </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_M4</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.35, 0, .5)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.3, 0, .5)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.5, 0, -.6)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.5, 0, -.6)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+              <li>
+                <offset>(-.35, 0, .3)</offset>
+                <type>PlatformRestraint0</type>
+              </li>
+              <li>
+                <offset>(.4, 0, .15)</offset>
+                <type>PlatformRestraint1</type>
+              </li>
+              <li>
+                <offset>(.2, 0, -.6)</offset>
+                <type>PlatformRestraint2</type>
+              </li>
+              <li>
+                <offset>(-.2, 0, -.6)</offset>
+                <type>PlatformRestraint3</type>
+              </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_M5</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.35, 0, .5)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.3, 0, .5)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.5, 0, -.6)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.5, 0, -.6)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+              <li>
+                <offset>(-.35, 0, .3)</offset>
+                <type>PlatformRestraint0</type>
+              </li>
+              <li>
+                <offset>(.4, 0, .15)</offset>
+                <type>PlatformRestraint1</type>
+              </li>
+              <li>
+                <offset>(.2, 0, -.6)</offset>
+                <type>PlatformRestraint2</type>
+              </li>
+              <li>
+                <offset>(-.2, 0, -.6)</offset>
+                <type>PlatformRestraint3</type>
+              </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_M6</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.35, 0, .5)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.3, 0, .5)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.5, 0, -.6)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.5, 0, -.6)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+              <li>
+                <offset>(-.35, 0, .3)</offset>
+                <type>PlatformRestraint0</type>
+              </li>
+              <li>
+                <offset>(.4, 0, .15)</offset>
+                <type>PlatformRestraint1</type>
+              </li>
+              <li>
+                <offset>(.2, 0, -.6)</offset>
+                <type>PlatformRestraint2</type>
+              </li>
+              <li>
+                <offset>(-.2, 0, -.6)</offset>
+                <type>PlatformRestraint3</type>
+              </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_H1</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
         <dessicatedGraphicData>
           <attachPoints>
             <li>
-              <offset>(-.35, 0, .3)</offset>
+              <offset>(-.37, 0, .2)</offset>
               <type>PlatformRestraint0</type>
             </li>
             <li>
-              <offset>(.4, 0, .15)</offset>
+              <offset>(.5, 0, .4)</offset>
               <type>PlatformRestraint1</type>
             </li>
             <li>
-              <offset>(.2, 0, -.6)</offset>
+              <offset>(.08, 0, -.55)</offset>
               <type>PlatformRestraint2</type>
             </li>
             <li>
-              <offset>(-.2, 0, -.6)</offset>
+              <offset>(-.23, 0, -.55)</offset>
               <type>PlatformRestraint3</type>
             </li>
           </attachPoints>
         </dessicatedGraphicData>
       </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_H2</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_H3</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_H4</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_H5</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_H6</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.37, 0, .2)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.5, 0, .4)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.08, 0, -.55)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.23, 0, -.55)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.37, 0, .2)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.5, 0, .4)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.08, 0, -.55)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.23, 0, -.55)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_T1</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.4, 0, .1)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.37, 0, .1)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.1, 0, -.4)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.22, 0, -.52)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.4, 0, .1)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.37, 0, .1)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.1, 0, -.4)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.22, 0, -.52)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_T2</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.4, 0, .1)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.37, 0, .1)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.1, 0, -.4)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.22, 0, -.52)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.4, 0, .1)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.37, 0, .1)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.1, 0, -.4)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.22, 0, -.52)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_T3</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.4, 0, .1)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.37, 0, .1)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.1, 0, -.4)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.22, 0, -.52)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.4, 0, .1)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.37, 0, .1)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.1, 0, -.4)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.22, 0, -.52)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_T4</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.4, 0, .1)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.37, 0, .1)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.1, 0, -.4)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.22, 0, -.52)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.4, 0, .1)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.37, 0, .1)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.1, 0, -.4)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.22, 0, -.52)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_T5</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.4, 0, .1)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.37, 0, .1)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.1, 0, -.4)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.22, 0, -.52)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.4, 0, .1)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.37, 0, .1)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.1, 0, -.4)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.22, 0, -.52)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_T6</texPath>
+        <attachPoints>
+          <li>
+            <offset>(-.4, 0, .1)</offset>
+            <type>PlatformRestraint0</type>
+          </li>
+          <li>
+            <offset>(.37, 0, .1)</offset>
+            <type>PlatformRestraint1</type>
+          </li>
+          <li>
+            <offset>(.1, 0, -.4)</offset>
+            <type>PlatformRestraint2</type>
+          </li>
+          <li>
+            <offset>(-.22, 0, -.52)</offset>
+            <type>PlatformRestraint3</type>
+          </li>
+        </attachPoints>
+        <dessicatedTexPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</dessicatedTexPath>
+        <dessicatedGraphicData>
+          <attachPoints>
+            <li>
+              <offset>(-.4, 0, .1)</offset>
+              <type>PlatformRestraint0</type>
+            </li>
+            <li>
+              <offset>(.37, 0, .1)</offset>
+              <type>PlatformRestraint1</type>
+            </li>
+            <li>
+              <offset>(.1, 0, -.4)</offset>
+              <type>PlatformRestraint2</type>
+            </li>
+            <li>
+              <offset>(-.22, 0, -.52)</offset>
+              <type>PlatformRestraint3</type>
+            </li>
+          </attachPoints>
+        </dessicatedGraphicData>
+      </li>
+      
     </alternateGraphics>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Gorehulk/Gorehulk_A</texPath>
+          <texPath>Things/Pawn/Humanlike/STLKR_FeralZombie/STLKR_FeralZombie_F1</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Gorehulk/Dessicated_Gorehulk</texPath>
+          <texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>2</drawSize>
           <attachPoints>

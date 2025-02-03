@@ -5,10 +5,10 @@
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
-	<packageId>STLKR.CallofRimworld.Me</packageId>
+	<packageId>STLKR.CallofRimworld.NikolasMakarov</packageId>
 	<description>Description:
 
-None
+For testing animal / pawns only
 	</description>
 	<!--<modDependencies>
 		<li>

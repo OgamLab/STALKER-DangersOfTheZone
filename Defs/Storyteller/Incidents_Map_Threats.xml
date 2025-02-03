@@ -4,7 +4,7 @@
   <IncidentDef ParentName="EntitySwarmBase">
     <defName>FeralZombieSwarm</defName>
     <label>feral swarm</label>
-    <workerClass>IncidentWorker_FeralZombieSwarm</workerClass>
+    <workerClass>S.T.A.L.K.E.R.IncidentWorker_FeralZombieSwarm</workerClass>
     <baseChance>2</baseChance>
     <earliestDay>0</earliestDay>
     <minAnomalyThreatLevel>0</minAnomalyThreatLevel>
@@ -13,7 +13,7 @@
   <IncidentDef ParentName="EntitySwarmBase">
     <defName>SmallFeralZombieSwarm</defName>
     <label>feral swarm</label>
-    <workerClass>IncidentWorker_FeralZombieSwarmSmall</workerClass>
+    <workerClass>S.T.A.L.K.E.R.IncidentWorker_FeralZombieSwarmSmall</workerClass>
     <baseChance>1</baseChance>
     <category>ThreatSmall</category>
     <letterLabel>Shamblers approach</letterLabel>
@@ -27,7 +27,7 @@
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
-    <workerClass>IncidentWorker_FeralZombieAssault</workerClass>
+    <workerClass>S.T.A.L.K.E.R.IncidentWorker_FeralZombieAssault</workerClass>
     <baseChance>2</baseChance>
     <minAnomalyThreatLevel>0</minAnomalyThreatLevel>
     <earliestDay>20</earliestDay>
