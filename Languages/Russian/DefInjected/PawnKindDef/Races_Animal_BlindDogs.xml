@@ -1,80 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <BlindDogWhite.label>BlindDogWhite</BlindDogWhite.label>
-  <BlindDogWhite.labelPlural>BlindDogWhites</BlindDogWhite.labelPlural>
-  <BlindDogWhite.lifeStages.0.label>BlindDogWhite</BlindDogWhite.lifeStages.0.label>
-  <BlindDogWhite.lifeStages.0.labelPlural>BlindDogWhite</BlindDogWhite.lifeStages.0.labelPlural>
-  <BlindDogWhite.lifeStages.0.labelMale>male BlindDogWhite</BlindDogWhite.lifeStages.0.labelMale>
-  <BlindDogWhite.lifeStages.0.labelMalePlural>male BlindDogWhites</BlindDogWhite.lifeStages.0.labelMalePlural>
-  <BlindDogWhite.lifeStages.0.labelFemale>female BlindDogWhite</BlindDogWhite.lifeStages.0.labelFemale>
-  <BlindDogWhite.lifeStages.0.labelFemalePlural>female BlindDogWhites</BlindDogWhite.lifeStages.0.labelFemalePlural>
-  <BlindDogWhite.lifeStages.1.label>BlindDogWhite</BlindDogWhite.lifeStages.1.label>
-  <BlindDogWhite.lifeStages.1.labelPlural>BlindDogWhite</BlindDogWhite.lifeStages.1.labelPlural>
-  <BlindDogWhite.lifeStages.1.labelMale>male BlindDogWhite</BlindDogWhite.lifeStages.1.labelMale>
-  <BlindDogWhite.lifeStages.1.labelMalePlural>male BlindDogWhites</BlindDogWhite.lifeStages.1.labelMalePlural>
-  <BlindDogWhite.lifeStages.1.labelFemale>female BlindDogWhite</BlindDogWhite.lifeStages.1.labelFemale>
-  <BlindDogWhite.lifeStages.1.labelFemalePlural>female BlindDogWhites</BlindDogWhite.lifeStages.1.labelFemalePlural>
-  <BlindDogWhite.lifeStages.2.label>BlindDogWhite</BlindDogWhite.lifeStages.2.label>
-  <BlindDogWhite.lifeStages.2.labelPlural>BlindDogWhite</BlindDogWhite.lifeStages.2.labelPlural>
-  <BlindDogWhite.lifeStages.2.labelMale>male BlindDogWhite</BlindDogWhite.lifeStages.2.labelMale>
-  <BlindDogWhite.lifeStages.2.labelMalePlural>male BlindDogWhites</BlindDogWhite.lifeStages.2.labelMalePlural>
-  <BlindDogWhite.lifeStages.2.labelFemale>female BlindDogWhite</BlindDogWhite.lifeStages.2.labelFemale>
-  <BlindDogWhite.lifeStages.2.labelFemalePlural>female BlindDogWhites</BlindDogWhite.lifeStages.2.labelFemalePlural>
-  <BlindDogWhite.labelMale>male BlindDogWhite</BlindDogWhite.labelMale>
-  <BlindDogWhite.labelMalePlural>male BlindDogWhites</BlindDogWhite.labelMalePlural>
-  <BlindDogWhite.labelFemale>female BlindDogWhite</BlindDogWhite.labelFemale>
-  <BlindDogWhite.labelFemalePlural>female BlindDogWhites</BlindDogWhite.labelFemalePlural>
+  <BlindDogWhite.label>Слепой пёс</BlindDogWhite.label>
+  <BlindDogWhite.labelPlural>Слепые псы</BlindDogWhite.labelPlural>
+  <BlindDogWhite.lifeStages.0.label>Слепой пёс</BlindDogWhite.lifeStages.0.label>
+  <BlindDogWhite.lifeStages.0.labelPlural>Слепые псы</BlindDogWhite.lifeStages.0.labelPlural>
+  <BlindDogWhite.lifeStages.0.labelMale>Слепой пёс</BlindDogWhite.lifeStages.0.labelMale>
+  <BlindDogWhite.lifeStages.0.labelMalePlural>Слепые псы</BlindDogWhite.lifeStages.0.labelMalePlural>
+  <BlindDogWhite.lifeStages.0.labelFemale>Слепой пёс</BlindDogWhite.lifeStages.0.labelFemale>
+  <BlindDogWhite.lifeStages.0.labelFemalePlural>Слепые псы</BlindDogWhite.lifeStages.0.labelFemalePlural>
+  <BlindDogWhite.lifeStages.1.label>Слепой пёс</BlindDogWhite.lifeStages.1.label>
+  <BlindDogWhite.lifeStages.1.labelPlural>Слепые псы</BlindDogWhite.lifeStages.1.labelPlural>
+  <BlindDogWhite.lifeStages.1.labelMale>Слепой пёс</BlindDogWhite.lifeStages.1.labelMale>
+  <BlindDogWhite.lifeStages.1.labelMalePlural>Слепые псы</BlindDogWhite.lifeStages.1.labelMalePlural>
+  <BlindDogWhite.lifeStages.1.labelFemale>Слепой пёс</BlindDogWhite.lifeStages.1.labelFemale>
+  <BlindDogWhite.lifeStages.1.labelFemalePlural>Слепые псы</BlindDogWhite.lifeStages.1.labelFemalePlural>
+  <BlindDogWhite.lifeStages.2.label>Слепой пёс</BlindDogWhite.lifeStages.2.label>
+  <BlindDogWhite.lifeStages.2.labelPlural>Слепые псы</BlindDogWhite.lifeStages.2.labelPlural>
+  <BlindDogWhite.lifeStages.2.labelMale>Слепой пёс</BlindDogWhite.lifeStages.2.labelMale>
+  <BlindDogWhite.lifeStages.2.labelMalePlural>Слепые псы</BlindDogWhite.lifeStages.2.labelMalePlural>
+  <BlindDogWhite.lifeStages.2.labelFemale>Слепой пёс</BlindDogWhite.lifeStages.2.labelFemale>
+  <BlindDogWhite.lifeStages.2.labelFemalePlural>Слепые псы</BlindDogWhite.lifeStages.2.labelFemalePlural>
+  <BlindDogWhite.labelMale>Слепой пёс</BlindDogWhite.labelMale>
+  <BlindDogWhite.labelMalePlural>Слепые псы</BlindDogWhite.labelMalePlural>
+  <BlindDogWhite.labelFemale>Слепой пёс</BlindDogWhite.labelFemale>
+  <BlindDogWhite.labelFemalePlural>Слепые псы</BlindDogWhite.labelFemalePlural>
 
-  <BlindDogBrown.label>BlindDogBrown</BlindDogBrown.label>
-  <BlindDogBrown.labelPlural>BlindDogBrowns</BlindDogBrown.labelPlural>
-  <BlindDogBrown.lifeStages.0.label>BlindDogBrown</BlindDogBrown.lifeStages.0.label>
-  <BlindDogBrown.lifeStages.0.labelPlural>BlindDogBrown</BlindDogBrown.lifeStages.0.labelPlural>
-  <BlindDogBrown.lifeStages.0.labelMale>male BlindDogBrown</BlindDogBrown.lifeStages.0.labelMale>
-  <BlindDogBrown.lifeStages.0.labelMalePlural>male BlindDogBrowns</BlindDogBrown.lifeStages.0.labelMalePlural>
-  <BlindDogBrown.lifeStages.0.labelFemale>female BlindDogBrown</BlindDogBrown.lifeStages.0.labelFemale>
-  <BlindDogBrown.lifeStages.0.labelFemalePlural>female BlindDogBrowns</BlindDogBrown.lifeStages.0.labelFemalePlural>
-  <BlindDogBrown.lifeStages.1.label>BlindDogBrown</BlindDogBrown.lifeStages.1.label>
-  <BlindDogBrown.lifeStages.1.labelPlural>BlindDogBrown</BlindDogBrown.lifeStages.1.labelPlural>
-  <BlindDogBrown.lifeStages.1.labelMale>male BlindDogBrown</BlindDogBrown.lifeStages.1.labelMale>
-  <BlindDogBrown.lifeStages.1.labelMalePlural>male BlindDogBrowns</BlindDogBrown.lifeStages.1.labelMalePlural>
-  <BlindDogBrown.lifeStages.1.labelFemale>female BlindDogBrown</BlindDogBrown.lifeStages.1.labelFemale>
-  <BlindDogBrown.lifeStages.1.labelFemalePlural>female BlindDogBrowns</BlindDogBrown.lifeStages.1.labelFemalePlural>
-  <BlindDogBrown.lifeStages.2.label>BlindDogBrown</BlindDogBrown.lifeStages.2.label>
-  <BlindDogBrown.lifeStages.2.labelPlural>BlindDogBrown</BlindDogBrown.lifeStages.2.labelPlural>
-  <BlindDogBrown.lifeStages.2.labelMale>male BlindDogBrown</BlindDogBrown.lifeStages.2.labelMale>
-  <BlindDogBrown.lifeStages.2.labelMalePlural>male BlindDogBrowns</BlindDogBrown.lifeStages.2.labelMalePlural>
-  <BlindDogBrown.lifeStages.2.labelFemale>female BlindDogBrown</BlindDogBrown.lifeStages.2.labelFemale>
-  <BlindDogBrown.lifeStages.2.labelFemalePlural>female BlindDogBrowns</BlindDogBrown.lifeStages.2.labelFemalePlural>
-  <BlindDogBrown.labelMale>male BlindDogBrown</BlindDogBrown.labelMale>
-  <BlindDogBrown.labelMalePlural>male BlindDogBrowns</BlindDogBrown.labelMalePlural>
-  <BlindDogBrown.labelFemale>female BlindDogBrown</BlindDogBrown.labelFemale>
-  <BlindDogBrown.labelFemalePlural>female BlindDogBrowns</BlindDogBrown.labelFemalePlural>
+  <BlindDogBrown.label>Слепой пёс</BlindDogBrown.label>
+  <BlindDogBrown.labelPlural>Слепые псы</BlindDogBrown.labelPlural>
+  <BlindDogBrown.lifeStages.0.label>Слепой пёс</BlindDogBrown.lifeStages.0.label>
+  <BlindDogBrown.lifeStages.0.labelPlural>Слепой пёс</BlindDogBrown.lifeStages.0.labelPlural>
+  <BlindDogBrown.lifeStages.0.labelMale>Слепой пёс</BlindDogBrown.lifeStages.0.labelMale>
+  <BlindDogBrown.lifeStages.0.labelMalePlural>Слепые псы</BlindDogBrown.lifeStages.0.labelMalePlural>
+  <BlindDogBrown.lifeStages.0.labelFemale>Слепой пёс</BlindDogBrown.lifeStages.0.labelFemale>
+  <BlindDogBrown.lifeStages.0.labelFemalePlural>Слепые псы</BlindDogBrown.lifeStages.0.labelFemalePlural>
+  <BlindDogBrown.lifeStages.1.label>Слепой пёс</BlindDogBrown.lifeStages.1.label>
+  <BlindDogBrown.lifeStages.1.labelPlural>Слепые псы</BlindDogBrown.lifeStages.1.labelPlural>
+  <BlindDogBrown.lifeStages.1.labelMale>Слепой пёс</BlindDogBrown.lifeStages.1.labelMale>
+  <BlindDogBrown.lifeStages.1.labelMalePlural>Слепые псы</BlindDogBrown.lifeStages.1.labelMalePlural>
+  <BlindDogBrown.lifeStages.1.labelFemale>Слепой пёс</BlindDogBrown.lifeStages.1.labelFemale>
+  <BlindDogBrown.lifeStages.1.labelFemalePlural>Слепые псы</BlindDogBrown.lifeStages.1.labelFemalePlural>
+  <BlindDogBrown.lifeStages.2.label>Слепой пёс</BlindDogBrown.lifeStages.2.label>
+  <BlindDogBrown.lifeStages.2.labelPlural>Слепые псы</BlindDogBrown.lifeStages.2.labelPlural>
+  <BlindDogBrown.lifeStages.2.labelMale>Слепой пёс</BlindDogBrown.lifeStages.2.labelMale>
+  <BlindDogBrown.lifeStages.2.labelMalePlural>Слепые псы</BlindDogBrown.lifeStages.2.labelMalePlural>
+  <BlindDogBrown.lifeStages.2.labelFemale>Слепой пёс</BlindDogBrown.lifeStages.2.labelFemale>
+  <BlindDogBrown.lifeStages.2.labelFemalePlural>Слепые псы</BlindDogBrown.lifeStages.2.labelFemalePlural>
+  <BlindDogBrown.labelMale>Слепой пёс</BlindDogBrown.labelMale>
+  <BlindDogBrown.labelMalePlural>Слепые псы</BlindDogBrown.labelMalePlural>
+  <BlindDogBrown.labelFemale>Слепой пёс</BlindDogBrown.labelFemale>
+  <BlindDogBrown.labelFemalePlural>Слепые псы</BlindDogBrown.labelFemalePlural>
 
-  <BlindDogOrange.label>BlindDogOrange</BlindDogOrange.label>
-  <BlindDogOrange.labelPlural>BlindDogOranges</BlindDogOrange.labelPlural>
-  <BlindDogOrange.lifeStages.0.label>BlindDogOrange</BlindDogOrange.lifeStages.0.label>
-  <BlindDogOrange.lifeStages.0.labelPlural>BlindDogOrange</BlindDogOrange.lifeStages.0.labelPlural>
-  <BlindDogOrange.lifeStages.0.labelMale>male BlindDogOrange</BlindDogOrange.lifeStages.0.labelMale>
-  <BlindDogOrange.lifeStages.0.labelMalePlural>male BlindDogOranges</BlindDogOrange.lifeStages.0.labelMalePlural>
-  <BlindDogOrange.lifeStages.0.labelFemale>female BlindDogOrange</BlindDogOrange.lifeStages.0.labelFemale>
-  <BlindDogOrange.lifeStages.0.labelFemalePlural>female BlindDogOranges</BlindDogOrange.lifeStages.0.labelFemalePlural>
-  <BlindDogOrange.lifeStages.1.label>BlindDogOrange</BlindDogOrange.lifeStages.1.label>
-  <BlindDogOrange.lifeStages.1.labelPlural>BlindDogOrange</BlindDogOrange.lifeStages.1.labelPlural>
-  <BlindDogOrange.lifeStages.1.labelMale>male BlindDogOrange</BlindDogOrange.lifeStages.1.labelMale>
-  <BlindDogOrange.lifeStages.1.labelMalePlural>male BlindDogOranges</BlindDogOrange.lifeStages.1.labelMalePlural>
-  <BlindDogOrange.lifeStages.1.labelFemale>female BlindDogOrange</BlindDogOrange.lifeStages.1.labelFemale>
-  <BlindDogOrange.lifeStages.1.labelFemalePlural>female BlindDogOranges</BlindDogOrange.lifeStages.1.labelFemalePlural>
-  <BlindDogOrange.lifeStages.2.label>BlindDogOrange</BlindDogOrange.lifeStages.2.label>
-  <BlindDogOrange.lifeStages.2.labelPlural>BlindDogOrange</BlindDogOrange.lifeStages.2.labelPlural>
-  <BlindDogOrange.lifeStages.2.labelMale>male BlindDogOrange</BlindDogOrange.lifeStages.2.labelMale>
-  <BlindDogOrange.lifeStages.2.labelMalePlural>male BlindDogOranges</BlindDogOrange.lifeStages.2.labelMalePlural>
-  <BlindDogOrange.lifeStages.2.labelFemale>female BlindDogOrange</BlindDogOrange.lifeStages.2.labelFemale>
-  <BlindDogOrange.lifeStages.2.labelFemalePlural>female BlindDogOranges</BlindDogOrange.lifeStages.2.labelFemalePlural>
-  <BlindDogOrange.labelMale>male BlindDogOrange</BlindDogOrange.labelMale>
-  <BlindDogOrange.labelMalePlural>male BlindDogOranges</BlindDogOrange.labelMalePlural>
-  <BlindDogOrange.labelFemale>female BlindDogOrange</BlindDogOrange.labelFemale>
-  <BlindDogOrange.labelFemalePlural>female BlindDogOranges</BlindDogOrange.labelFemalePlural>
+  <BlindDogOrange.label>Слепые псы</BlindDogOrange.label>
+  <BlindDogOrange.labelPlural>Слепые псы</BlindDogOrange.labelPlural>
+  <BlindDogOrange.lifeStages.0.label>Слепой пёс</BlindDogOrange.lifeStages.0.label>
+  <BlindDogOrange.lifeStages.0.labelPlural>Слепые псы</BlindDogOrange.lifeStages.0.labelPlural>
+  <BlindDogOrange.lifeStages.0.labelMale>Слепой пёс</BlindDogOrange.lifeStages.0.labelMale>
+  <BlindDogOrange.lifeStages.0.labelMalePlural>Слепые псы</BlindDogOrange.lifeStages.0.labelMalePlural>
+  <BlindDogOrange.lifeStages.0.labelFemale>Слепой пёс</BlindDogOrange.lifeStages.0.labelFemale>
+  <BlindDogOrange.lifeStages.0.labelFemalePlural>Слепые псы</BlindDogOrange.lifeStages.0.labelFemalePlural>
+  <BlindDogOrange.lifeStages.1.label>Слепой пёс</BlindDogOrange.lifeStages.1.label>
+  <BlindDogOrange.lifeStages.1.labelPlural>Слепой пёс</BlindDogOrange.lifeStages.1.labelPlural>
+  <BlindDogOrange.lifeStages.1.labelMale>Слепой пёс</BlindDogOrange.lifeStages.1.labelMale>
+  <BlindDogOrange.lifeStages.1.labelMalePlural>Слепые псы</BlindDogOrange.lifeStages.1.labelMalePlural>
+  <BlindDogOrange.lifeStages.1.labelFemale>Слепые псы</BlindDogOrange.lifeStages.1.labelFemale>
+  <BlindDogOrange.lifeStages.1.labelFemalePlural>Слепые псы</BlindDogOrange.lifeStages.1.labelFemalePlural>
+  <BlindDogOrange.lifeStages.2.label>Слепой пёс</BlindDogOrange.lifeStages.2.label>
+  <BlindDogOrange.lifeStages.2.labelPlural>Слепые псы</BlindDogOrange.lifeStages.2.labelPlural>
+  <BlindDogOrange.lifeStages.2.labelMale>Слепой пёс</BlindDogOrange.lifeStages.2.labelMale>
+  <BlindDogOrange.lifeStages.2.labelMalePlural>Слепые псы</BlindDogOrange.lifeStages.2.labelMalePlural>
+  <BlindDogOrange.lifeStages.2.labelFemale>Слепой пёс</BlindDogOrange.lifeStages.2.labelFemale>
+  <BlindDogOrange.lifeStages.2.labelFemalePlural>Слепые псы</BlindDogOrange.lifeStages.2.labelFemalePlural>
+  <BlindDogOrange.labelMale>Слепой пёс</BlindDogOrange.labelMale>
+  <BlindDogOrange.labelMalePlural>Слепые псы</BlindDogOrange.labelMalePlural>
+  <BlindDogOrange.labelFemale>Слепой пёс</BlindDogOrange.labelFemale>
+  <BlindDogOrange.labelFemalePlural>Слепые псы</BlindDogOrange.labelFemalePlural>
 
 
 </LanguageData>

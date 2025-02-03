@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <STLKR_ConsumedAnimalHemogen.label>потребляемый животный гемоген</STLKR_ConsumedAnimalHemogen.label>
-<STLKR_ConsumedAnimalHemogen.description>Животный гемоген значительно увеличивает регенерацию и боевые возможности питателя, но временно жертвует способностью общаться с другими.</STLKR_ConsumedAnimalHemogen.description>
+  <STLKR_ConsumedAnimalHemogen.label>потребляемый животный гемоген</STLKR_ConsumedAnimalHemogen.label>
+  <STLKR_ConsumedAnimalHemogen.description>Животный гемоген значительно увеличивает регенерацию и боевые возможности питателя, но временно жертвует способностью общаться с другими.</STLKR_ConsumedAnimalHemogen.description>
 
-<STLKR_ConsumedCorpseHemogen.label>потребляемый трупный гемоген</STLKR_ConsumedCorpseHemogen.label>
-<STLKR_ConsumedCorpseHemogen.description>Трупный гемоген не может полностью удовлетворить питателя, но на некоторое время сойдет.</STLKR_ConsumedCorpseHemogen.description>
+  <STLKR_ConsumedCorpseHemogen.label>потребляемый трупный гемоген</STLKR_ConsumedCorpseHemogen.label>
+  <STLKR_ConsumedCorpseHemogen.description>Трупный гемоген не может полностью удовлетворить питателя, но на некоторое время сойдет.</STLKR_ConsumedCorpseHemogen.description>
 
-<STLKR_ConsumedSanguophageHemogen.label>потребляемый сангуофаг гемоген</STLKR_ConsumedSanguophageHemogen.label>
-<STLKR_ConsumedSanguophageHemogen.description>Гемоген Sanguophage дает питателю мощный импульс ко всем возможностям.</STLKR_ConsumedSanguophageHemogen.description>
+  <STLKR_ConsumedSanguophageHemogen.label>потребляемый сангуофаг гемоген</STLKR_ConsumedSanguophageHemogen.label>
+  <STLKR_ConsumedSanguophageHemogen.description>Гемоген Sanguophage дает питателю мощный импульс ко всем возможностям.</STLKR_ConsumedSanguophageHemogen.description>
 
+
+  
 
 </LanguageData>
