@@ -1,0 +1,12 @@
+﻿<Patch>
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BorealForest" or defName="Tundra" or defName="ColdBog" or defName="TemperateForest" or defName="TemperateSwamp" or defName="TropicalRainforest" or defName="TropicalSwamp" or defName="AridShrubland" or defName="Desert" or defName="ExtremeDesert"]/wildAnimals</xpath>
+		<value>
+		<BlindDogWhite>0.07</BlindDogWhite>
+		<BlindDogBrown>0.07</BlindDogBrown>
+		<BlindDogOrange>0.07</BlindDogOrange>
+		</value>
+	</Operation>
+
+</Patch>

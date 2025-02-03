@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <FeralZombieSwarm.label>дикий рой</FeralZombieSwarm.label>
+
+<SmallFeralZombieSwarm.label>дикий рой</SmallFeralZombieSwarm.label>
+<SmallFeralZombieSwarm.letterText>Приближается небольшая группа из {0} шаркающих трупов. Нечеловеческая сила, которая их оживляет, угасает, поэтому они рухнут в течение дня.\n\nЕсли вам удастся поймать одного, вы сможете изучить его для получения знаний об аномалиях. В противном случае они могут вас не заметить, если вы оставите их в покое.</SmallFeralZombieSwarm.letterText>
+
+<SmallFeralZombieSwarm.letterLabel>Шамблеры приближаются</SmallFeralZombieSwarm.letterLabel>
+
+<FeralZombieAssault.label>Дикое нападение</FeralZombieAssault.label>
+
+
+</LanguageData>

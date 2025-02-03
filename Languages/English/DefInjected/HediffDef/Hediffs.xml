@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <STLKR_ConsumedAnimalHemogen.label>consumed animal hemogen</STLKR_ConsumedAnimalHemogen.label>
+  <STLKR_ConsumedAnimalHemogen.description>Animal hemogen greatly increases regeneration and combat capabilities of the feeder, but temporary sacrifice the capability to communicate with others.</STLKR_ConsumedAnimalHemogen.description>
+
+  <STLKR_ConsumedCorpseHemogen.label>consumed corpse hemogen</STLKR_ConsumedCorpseHemogen.label>
+  <STLKR_ConsumedCorpseHemogen.description>Corpse hemogen could not truly satisfy the feeder, but it will do for a while.</STLKR_ConsumedCorpseHemogen.description>
+
+  <STLKR_ConsumedSanguophageHemogen.label>consumed sanguophage hemogen</STLKR_ConsumedSanguophageHemogen.label>
+  <STLKR_ConsumedSanguophageHemogen.description>Sanguophage hemogen gives the feeder a powerful boost to all capacities.</STLKR_ConsumedSanguophageHemogen.description>
+
+
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <STLKR_FeralZombie.label>Feral Zombie</STLKR_FeralZombie.label>
+  <STLKR_FeralZombie.description>The Brain Scorcher strips its victim of mind and reason, leaving only an empty, mindless shell. The brainless bodies then turn into zombies, following only the most basic instincts, wandering aimlessly around the Zone without weapons or clothing. Zombies are little more than sluggish walking corpses, caring only about food and sleep. They eat and drink just about anything they can get their claws on, hence they are virtually soaked in radiation and toxic waste. Usually they roam the Zone without any apparent purpose or just lie corpse-like in abandoned buildings. However, as soon as they sense the presence of a human being, they attack immediately. Experienced stalkers have learned to avoid them if they can.</STLKR_FeralZombie.description>
+  <STLKR_FeralZombie.tools.0.label>left fist</STLKR_FeralZombie.tools.0.label>
+  <STLKR_FeralZombie.tools.1.label>right fist</STLKR_FeralZombie.tools.1.label>
+  <STLKR_FeralZombie.tools.2.label>teeth</STLKR_FeralZombie.tools.2.label>
+  <STLKR_FeralZombie.tools.3.label>head</STLKR_FeralZombie.tools.3.label>
+
+
+</LanguageData>
