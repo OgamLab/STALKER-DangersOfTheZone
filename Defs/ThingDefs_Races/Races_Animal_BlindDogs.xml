@@ -86,10 +86,10 @@
       <baseHealthScale>1.3</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_BlindDog</leatherDef>
-      <wildness>0.80</wildness>
+      <wildness>1.00</wildness>
       <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+      <manhunterOnDamageChance>0.70</manhunterOnDamageChance>
       <gestationPeriodDays>10</gestationPeriodDays>
       <lifeExpectancy>13</lifeExpectancy>
       <soundEating>PredatorLarge_Eat</soundEating>
@@ -105,9 +105,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>0.5</minAge>
-          <soundWounded>Pawn_Cougar_Injured</soundWounded>
-          <soundDeath>Pawn_Cougar_Death</soundDeath>
-          <soundAngry>Pawn_Cougar_Angry</soundAngry>
+		  <soundWounded>BlindDogs_HitPawn</soundWounded>
+          <soundDeath>Pawn_Dog_Death</soundDeath>
+          <soundCall>Pawn_Dog_Call</soundCall>
+          <soundAngry>Pawn_Dog_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -130,6 +131,7 @@
     <combatPower>120</combatPower>
     <ecoSystemWeight>0.50</ecoSystemWeight>
 	<wildGroupSize>2~10</wildGroupSize>
+	<canArriveManhunter>true</canArriveManhunter>
 	<startingHediffs>
       <li>
         <def>AbnormalFeeling</def>
@@ -168,9 +170,10 @@
           <texPath>Things/Pawn/Animal/BlindDog/BlindDog_1</texPath>
          <drawSize>1.05</drawSize>
           <color>(253,253,253)</color>
+		 <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/BlindDog/Dessicated_BlindDog</texPath>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
           <drawSize>1.05</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -179,13 +182,14 @@
           <texPath>Things/Pawn/Animal/BlindDog/BlindDog_1</texPath>
           <drawSize>1.05</drawSize>
           <color>(253,253,253)</color>
+		  <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/BlindDog/Dessicated_BlindDog</texPath>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
           <drawSize>1.05</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -194,13 +198,14 @@
           <texPath>Things/Pawn/Animal/BlindDog/BlindDog_1</texPath>
          <drawSize>1.95</drawSize>
           <color>(253,253,253)</color>
+		  <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/BlindDog/Dessicated_BlindDog</texPath>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
           <drawSize>1.95</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -217,6 +222,7 @@
           <texPath>Things/Pawn/Animal/BlindDog/BlindDog_5</texPath>
          <drawSize>1.05</drawSize>
           <color>(244,164,96)</color>
+		 <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
            <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
@@ -228,6 +234,7 @@
           <texPath>Things/Pawn/Animal/BlindDog/BlindDog_5</texPath>
           <drawSize>1.5</drawSize>
            <color>(244,164,96)</color>
+		  <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -243,6 +250,7 @@
           <texPath>Things/Pawn/Animal/BlindDog/BlindDog_5</texPath>
           <drawSize>1.95</drawSize>
            <color>(244,164,96)</color>
+		  <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -267,6 +275,7 @@
           <texPath>Things/Pawn/Animal/BlindDog/BlindDog_4</texPath>
          <drawSize>1.05</drawSize>
           <color>(160,82,45)</color>
+		 <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
@@ -278,6 +287,7 @@
           <texPath>Things/Pawn/Animal/BlindDog/BlindDog_4</texPath>
           <drawSize>1.5</drawSize>
             <color>(160,82,45)</color>
+		  <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -293,6 +303,7 @@
           <texPath>Things/Pawn/Animal/BlindDog/BlindDog_4</texPath>
          <drawSize>1.95</drawSize>
             <color>(160,82,45)</color>
+		<shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>

@@ -24,13 +24,13 @@
 			</targetParams>
 		</verbProperties>
 		<comps>
-			<li Class="BloodSucking.CompProperties_AbilityBloodSuckingBite">
+			<!--<li Class="BloodSucking.CompProperties_AbilityBloodSuckingBite">
 				<hemogenGain>0.2</hemogenGain>
 				<bloodFilthToSpawnRange>1</bloodFilthToSpawnRange>
 				<resistanceGain>1</resistanceGain>
 				<thoughtDefToGiveTarget>STLKR_FedOn</thoughtDefToGiveTarget>
 				<opinionThoughtDefToGiveTarget>STLKR_FedOnDiablerie_Social</opinionThoughtDefToGiveTarget>
-			</li>
+			</li>-->                       <!--removed for debugging!-->
 			<li Class="CompProperties_AbilityFleckOnTarget">
 				<fleckDef>BloodSplash</fleckDef>
 			</li>
