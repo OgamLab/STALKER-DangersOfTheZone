@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+			
+	<li Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BlindDog"]</xpath>
+		<value>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+		</value>
+	</li>
+
+			
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BlindDog"]/statBases</xpath>
+		<value>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<MeleeDodgeChance>0.23</MeleeDodgeChance>
+			<MeleeCritChance>0.20</MeleeCritChance>
+			<MeleeParryChance>0.11</MeleeParryChance>
+		</value>
+	</li>	
+		
+		
+		
+		
+	<li Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="BlindDog"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="BlindDog"]</xpath>
+			<value>
+				<comps />
+			</value>
+		</nomatch>
+	</li>
+
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BlindDog"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>700</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>600</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<MinArmorPct>0.5</MinArmorPct>
+			</li>
+		</value>
+	</li>
+		
+		
+	         </operations>
+	</match>
+  </Operation>		
+	
+</Patch>

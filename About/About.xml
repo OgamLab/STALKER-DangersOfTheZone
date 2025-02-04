@@ -10,18 +10,16 @@
 
 For testing animal / pawns only
 	</description>
-	<!--<modDependencies>
+	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
 			<displayName>Harmony</displayName>
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
 		</li>
-		<li>
- THESE ARE NOT BEING USE YET, MIGHT BE USED LATER ON...
-		</li>
-	</modDependencies>-->
+	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
+		<li>CETeam.CombatExtended</li>
 	</loadAfter>
 </ModMetaData>
