@@ -92,6 +92,7 @@
       <manhunterOnDamageChance>0.70</manhunterOnDamageChance>
       <gestationPeriodDays>10</gestationPeriodDays>
       <lifeExpectancy>13</lifeExpectancy>
+	  <packAnimal>true</packAnimal>
       <soundEating>PredatorLarge_Eat</soundEating>
       <lifeStageAges>
         <li>
@@ -137,6 +138,15 @@
         <def>AbnormalFeeling</def>
       </li>
     </startingHediffs>
+	<alternateGraphicChance>0.8</alternateGraphicChance>
+	<alternateGraphics>
+      <li><texPath>Things/Pawn/Animal/BlindDog/BlindDog_1</texPath></li>
+      <li><texPath>Things/Pawn/Animal/BlindDog/BlindDog_2</texPath></li>
+      <li><texPath>Things/Pawn/Animal/BlindDog/BlindDog_3</texPath></li>
+      <li><texPath>Things/Pawn/Animal/BlindDog/BlindDog_4</texPath></li>
+      <li><texPath>Things/Pawn/Animal/BlindDog/BlindDog_5</texPath></li>
+      <li><texPath>Things/Pawn/Animal/BlindDog/BlindDog_6</texPath></li>
+    </alternateGraphics>
   </PawnKindDef>
 
 

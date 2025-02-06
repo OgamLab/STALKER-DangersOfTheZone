@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Tark.label>Tark</Tark.label>
+  <Tark.description>Tark this creature is a horse. Or rather was. The tail is missing. The hind limbs have atrophied in favor of highly developed forelimbs. The enormous monster rises 8-10 feet at its highest point. The neck, which once proudly raised the animal's head, has turned into a single back muscle.The biochemical structure of the organism is incapable of regenerating damaged tissue and broken bones. The monster's skin is torn in many places, often exposing bare muscles and protruding bones. The lips are missing, as a result of which one can see the stumps of rotten and stinking teeth, through which white foam constantly oozes.It is completely unpredictable and very aggressive. It constantly migrates in a pack of five individuals. Sometimes "cubs" are found in packs. However, their herd behavior is just a relic of once friendly behavior, a collective memory, the basis of which no monster remembers. As a result, these creatures are very aggressive even towards each other.You can often see how a mother maims or kills her own cub just a few minutes after giving birth. They are even known to devour their own kind - apparently, their taste preferences are sharply cardinal towards carnivory. Monsters move, as a rule, at night.They feed in groups on everything that comes their way during a meal. Their madness blocks any manifestation of fear. They have no goals or intentions. They simply exist and go crazy from this. They do not interact with other species.This mutant is difficult to find. Very dangerous, as it can quickly run for an unlimited time after the player in order to quickly kill him. Tenacious, can withstand a machine gun burst from the PKM.</Tark.description>
+  <Tark.tools.0.label>head</Tark.tools.0.label>
+  <Tark.tools.1.label>left hoof</Tark.tools.1.label>
+  <Tark.tools.2.label>right hoof</Tark.tools.2.label>
+
+
+</LanguageData>
