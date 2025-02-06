@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Tark.label>Tark</Tark.label>
+  <Tark.labelPlural>Tarks</Tark.labelPlural>
+  <Tark.lifeStages.0.label>foal</Tark.lifeStages.0.label>
+  <Tark.lifeStages.0.labelPlural>foals</Tark.lifeStages.0.labelPlural>
+  <Tark.lifeStages.0.labelMale>male foal</Tark.lifeStages.0.labelMale>
+  <Tark.lifeStages.0.labelMalePlural>male foals</Tark.lifeStages.0.labelMalePlural>
+  <Tark.lifeStages.0.labelFemale>female foal</Tark.lifeStages.0.labelFemale>
+  <Tark.lifeStages.0.labelFemalePlural>female foals</Tark.lifeStages.0.labelFemalePlural>
+  <Tark.lifeStages.1.label>Tark</Tark.lifeStages.1.label>
+  <Tark.lifeStages.1.labelPlural>Tark</Tark.lifeStages.1.labelPlural>
+  <Tark.lifeStages.1.labelMale>Tark</Tark.lifeStages.1.labelMale>
+  <Tark.lifeStages.1.labelMalePlural>male Tarks</Tark.lifeStages.1.labelMalePlural>
+  <Tark.lifeStages.1.labelFemale>Tark</Tark.lifeStages.1.labelFemale>
+  <Tark.lifeStages.1.labelFemalePlural>female Tarks</Tark.lifeStages.1.labelFemalePlural>
+  <Tark.lifeStages.2.label>Tark</Tark.lifeStages.2.label>
+  <Tark.lifeStages.2.labelPlural>Tark</Tark.lifeStages.2.labelPlural>
+  <Tark.lifeStages.2.labelMale>Tark</Tark.lifeStages.2.labelMale>
+  <Tark.lifeStages.2.labelMalePlural>male Tarks</Tark.lifeStages.2.labelMalePlural>
+  <Tark.lifeStages.2.labelFemale>Tark</Tark.lifeStages.2.labelFemale>
+  <Tark.lifeStages.2.labelFemalePlural>female Tarks</Tark.lifeStages.2.labelFemalePlural>
+  <Tark.labelMale>Tark</Tark.labelMale>
+  <Tark.labelMalePlural>Tarks</Tark.labelMalePlural>
+  <Tark.labelFemale>Tark</Tark.labelFemale>
+  <Tark.labelFemalePlural>Tarks</Tark.labelFemalePlural>
+
+
+</LanguageData>
