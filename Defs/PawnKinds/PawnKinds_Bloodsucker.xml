@@ -4,7 +4,7 @@
   <ThingDef ParentName="BasePawn">
     <defName>Bloodsucker</defName>
     <label>Bloodsucker</label>
-    <description>Emaciated and misshapen humanoids. Their arms end in sharp, curled claws formed from bioferrite. Sightstealers are fragile, but use psychic influence to render themselves invisible until they get close to their victims. They are known to emit haunting screams as they gather on their terrible hunts.</description>
+    <description>A semi-legendary mutant encountered closer to the center of the Zone in various dungeons and abandoned places. Known for its ability to completely suck out the liquid contents of its victim and become invisible.Seasoned stalkers describe it as a tall, stooped humanoid with many tentacles where its mouth should be. According to them, this creature feeds with the help of its tentacles: by biting them into the neck of a living victim, it paralyzes its prey and sucks out its blood; after this procedure, only a dried-up, mummy-like shell remains from the person.Apparently, they are responsible for the death of a huge number of people in the Zone. Perhaps it is precisely because of their cunning and danger that so little is known about them, because few eyewitnesses remained alive.Bloodsuckers are immune to radiation. They are quite smart, which is confirmed by their attack tactics, and are not susceptible to the influence of the controller.</description>
     <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
     <statBases>
       <MoveSpeed>7.83</MoveSpeed>
@@ -21,7 +21,7 @@
       <thinkTreeMain>Sightstealer</thinkTreeMain>
       <thinkTreeConstant>SightstealerConstant</thinkTreeConstant>
       <body>Human</body>
-      <baseBodySize>0.8</baseBodySize>
+      <baseBodySize>1.0</baseBodySize>
       <baseHealthScale>0.75</baseHealthScale>
       <intelligence>ToolUser</intelligence>
       <needsRest>false</needsRest>
@@ -29,11 +29,11 @@
       <bleedRateFactor>0.5</bleedRateFactor>
       <fleshType>EntityFlesh</fleshType>
       <isImmuneToInfections>true</isImmuneToInfections>
-      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <specificMeatDef>Meat_mutant</specificMeatDef>
       <leatherDef>Leather_Dread</leatherDef>
       <hasGenders>false</hasGenders>
       <foodType>Meat</foodType>
-      <lifeExpectancy>250</lifeExpectancy>
+      <lifeExpectancy>50</lifeExpectancy>
       <soundCallIntervalRange>500~1000</soundCallIntervalRange>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
@@ -45,9 +45,9 @@
       <lifeStageAges>
         <li>
           <def>EntityFullyFormed</def>
-          <soundCall>Pawn_Sightstealer_Call</soundCall>
-          <soundWounded>Pawn_Sightstealer_Wounded</soundWounded>
-          <soundDeath>Pawn_Sightstealer_Death</soundDeath>
+          <soundCall>Pawn_Bloodsucker_Call</soundCall>
+          <soundWounded>Pawn_Bloodsucker_Wounded</soundWounded>
+          <soundDeath>Pawn_Bloodsucker_Death</soundDeath>
         </li>
       </lifeStageAges>
       <hediffGiverSets>
@@ -60,12 +60,13 @@
         <compClass>CompSightstealer</compClass>
       </li>
 	   <li Class="CompProperties_CauseHediff_AoE">
-        <hediff>PainField</hediff>
+        <hediff>Fear</hediff>
         <range>5.9</range>
         <canTargetSelf>false</canTargetSelf>
         <drawLines>false</drawLines>
         <ignoreMechs>true</ignoreMechs>
       </li>
+	   
     </comps>
     <tools>
       <li>
@@ -154,6 +155,9 @@
     <startingHediffs>
 		<li>
         <def>AbnormalRegeneration</def>
+		</li>
+		<li>
+        <def>STLKR_ConsumedSanguophageHemogen</def>
 		</li>
     </startingHediffs>
     <combatPower>70</combatPower>

@@ -156,4 +156,38 @@
       </li>
     </stages>
   </HediffDef>
+  
+  <HediffDef>
+    <defName>Fear</defName>
+    <label>primordial horror</label>
+    <hediffClass>Hediff_PainField</hediffClass>
+    <description>Primordial horror of the monster.</description>
+    <everCurableByItem>false</everCurableByItem>
+	<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.2</offset>
+					</li>
+					
+				</capMods>
+			</li>
+		</stages>
+    <comps>
+      <li Class="HediffCompProperties_PainField">
+        <painDistance>0.9</painDistance>
+        <activatedMinimum>0.05</activatedMinimum>
+      </li>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>50</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_Link">
+        <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+      </li>
+    </comps>
+  </HediffDef>
+  
 </Defs>
