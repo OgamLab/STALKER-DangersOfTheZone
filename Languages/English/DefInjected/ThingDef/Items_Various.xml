@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Meat_Tark.label>Tark meat</Meat_Tark.label>
-  <Meat_Tark.description>Mutant meat - Despite its appearance, it is considered food. If you decide to eat it, it is better to fry it first, heat treatment somewhat reduces the negative consequences.</Meat_Tark.description>
+  <Meat_mutant.label>Mutant meat</Meat_mutant.label>
+  <Meat_mutant.description>Mutant meat - Despite its appearance, it is considered food. If you decide to eat it, it is better to fry it first, heat treatment somewhat reduces the negative consequences.</Meat_mutant.description>
 
+
+  <!--<Meat_Tark.label>Tark meat</Meat_Tark.label>-->
+  <!--<Meat_Tark.description>Mutant meat - Despite its appearance, it is considered food. If you decide to eat it, it is better to fry it first, heat treatment somewhat reduces the negative consequences.</Meat_Tark.description>-->
 
 </LanguageData>

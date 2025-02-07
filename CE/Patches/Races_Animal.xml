@@ -204,5 +204,127 @@
 		</value>
 	</Operation>
 	
-	
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Bloodsucker"]</xpath>
+		<value>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Humanoid</bodyShape>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Bloodsucker"]/statBases</xpath>
+		<value>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<PainShockThreshold>0.90</PainShockThreshold>
+			<MeleeDodgeChance>0.17</MeleeDodgeChance>
+			<MeleeCritChance>0.08</MeleeCritChance>
+			<MeleeParryChance>0.06</MeleeParryChance>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Bloodsucker"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>1.41</cooldownTime>
+					<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>7</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetrationBlunt>3.2</armorPenetrationBlunt>
+					<armorPenetrationSharp>4.9</armorPenetrationSharp>
+					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>1.41</cooldownTime>
+					<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>7</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+					<armorPenetrationSharp>7.2</armorPenetrationSharp>
+					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>left claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities>
+						<li>Scratch</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>1.41</cooldownTime>
+					<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>15</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetrationBlunt>3.2</armorPenetrationBlunt>
+					<armorPenetrationSharp>4.9</armorPenetrationSharp>
+					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right claw</label>
+					<labelNoLocation>claw</labelNoLocation>
+					<capacities>
+						<li>Scratch</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>1.41</cooldownTime>
+					<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+					<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>15</amount>
+							</li>
+						</extraMeleeDamages>
+					</surpriseAttack>
+					<armorPenetrationBlunt>7.2</armorPenetrationBlunt>
+					<armorPenetrationSharp>2.4</armorPenetrationSharp>
+					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>2</power>
+					<cooldownTime>3.49</cooldownTime>
+					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>0.825</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
 </Patch>

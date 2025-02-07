@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BasePawn">
+    <defName>Bloodsucker</defName>
+    <label>Bloodsucker</label>
+    <description>Emaciated and misshapen humanoids. Their arms end in sharp, curled claws formed from bioferrite. Sightstealers are fragile, but use psychic influence to render themselves invisible until they get close to their victims. They are known to emit haunting screams as they gather on their terrible hunts.</description>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <statBases>
+      <MoveSpeed>7.83</MoveSpeed>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <PsychicSensitivity>2</PsychicSensitivity>
+      <MinimumContainmentStrength>30</MinimumContainmentStrength>
+      <LeatherAmount>20</LeatherAmount>
+      <MeatAmount>70</MeatAmount>
+      <ToxicResistance>0.5</ToxicResistance>
+    </statBases>
+    <tradeability>None</tradeability>
+    <race>
+      <thinkTreeMain>Sightstealer</thinkTreeMain>
+      <thinkTreeConstant>SightstealerConstant</thinkTreeConstant>
+      <body>Human</body>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHealthScale>0.75</baseHealthScale>
+      <intelligence>ToolUser</intelligence>
+      <needsRest>false</needsRest>
+      <bloodDef>Filth_DarkBlood</bloodDef>
+      <bleedRateFactor>0.5</bleedRateFactor>
+      <fleshType>EntityFlesh</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <specificMeatDef>Meat_Twisted</specificMeatDef>
+      <leatherDef>Leather_Dread</leatherDef>
+      <hasGenders>false</hasGenders>
+      <foodType>Meat</foodType>
+      <lifeExpectancy>250</lifeExpectancy>
+      <soundCallIntervalRange>500~1000</soundCallIntervalRange>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <trainability>None</trainability>
+      <canBecomeShambler>true</canBecomeShambler>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundCall>Pawn_Sightstealer_Call</soundCall>
+          <soundWounded>Pawn_Sightstealer_Wounded</soundWounded>
+          <soundDeath>Pawn_Sightstealer_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <hediffGiverSets>
+        <li>AnomalyEntity</li>
+      </hediffGiverSets>
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+    </race>
+    <comps>
+      <li>
+        <compClass>CompSightstealer</compClass>
+      </li>
+	   <li Class="CompProperties_CauseHediff_AoE">
+        <hediff>PainField</hediff>
+        <range>5.9</range>
+        <canTargetSelf>false</canTargetSelf>
+        <drawLines>false</drawLines>
+        <ignoreMechs>true</ignoreMechs>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <labelNoLocation>claw</labelNoLocation>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>7.0</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>right claw</label>
+        <labelNoLocation>claw</labelNoLocation>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>7.0</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+   <PawnKindDef Name="BloodsuckerKind">
+    <defName>Bloodsucker</defName>
+    <label>Bloodsucker</label>
+    <race>Bloodsucker</race>
+    <defaultFactionType>Entities</defaultFactionType>
+    <immuneToGameConditionEffects>true</immuneToGameConditionEffects>
+    <immuneToTraps>true</immuneToTraps>
+    <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+    <alternateGraphicChance>0.75</alternateGraphicChance>
+    <alternateGraphics>
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+           <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+           <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+      
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+    </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.7</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <startingHediffs>
+		<li>
+        <def>AbnormalRegeneration</def>
+		</li>
+    </startingHediffs>
+    <combatPower>70</combatPower>
+    <meleeAttackInfectionPathways>
+      <li>EntityAttacked</li>
+    </meleeAttackInfectionPathways>
+	 
+  </PawnKindDef>
+  
+  
+  
+  
+</Defs>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bloodsucker.label>Кровосос</Bloodsucker.label>
+<Bloodsucker.description>Истощенные и деформированные гуманоиды. Их руки заканчиваются острыми, загнутыми когтями, сформированными из биоферрита. Похитители взгляда хрупкие, но используют психическое воздействие, чтобы стать невидимыми, пока не приблизятся к своим жертвам. Известно, что они издают навязчивые крики, когда собираются на свою ужасную охоту.</Bloodsucker.description>
+<Bloodsucker.tools.0.label>левая лапа</Bloodsucker.tools.0.label>
+<Bloodsucker.tools.1.label>правая лапа</Bloodsucker.tools.1.label>
+<Bloodsucker.tools.2.label>голова</Bloodsucker.tools.2.label>
+
+
+</LanguageData>

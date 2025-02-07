@@ -10,5 +10,8 @@
   <STLKR_ConsumedSanguophageHemogen.label>потребляемый сангуофаг гемоген</STLKR_ConsumedSanguophageHemogen.label>
   <STLKR_ConsumedSanguophageHemogen.description>Гемоген Sanguophage дает питателю мощный импульс ко всем возможностям.</STLKR_ConsumedSanguophageHemogen.description>
 
+  <AbnormalRegeneration.label>Abnormal regeneration</AbnormalRegeneration.label>
+  <AbnormalRegeneration.description>Regeneration-This ability makes it difficult to kill a bloodsucker. Their regeneration is high in itself compared to other living creatures, and foreign blood only speeds it up. The main feature is the combination of invisibility and regeneration - when the bloodsucker is invisible, regeneration is higher, and the damage received is weaker..</AbnormalRegeneration.description>
+
 
 </LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bloodsucker.label>Bloodsucker</Bloodsucker.label>
+  <Bloodsucker.description>Emaciated and misshapen humanoids. Their arms end in sharp, curled claws formed from bioferrite. Sightstealers are fragile, but use psychic influence to render themselves invisible until they get close to their victims. They are known to emit haunting screams as they gather on their terrible hunts.</Bloodsucker.description>
+  <Bloodsucker.tools.0.label>left claw</Bloodsucker.tools.0.label>
+  <Bloodsucker.tools.1.label>right claw</Bloodsucker.tools.1.label>
+  <Bloodsucker.tools.2.label>head</Bloodsucker.tools.2.label>
+
+
+</LanguageData>

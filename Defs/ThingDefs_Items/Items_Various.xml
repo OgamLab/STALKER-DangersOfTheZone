@@ -2,8 +2,8 @@
 <Defs>
   
   <ThingDef>
-    <defName>Meat_Tark</defName>
-    <label>Tark meat</label>
+    <defName>Meat_mutant</defName>
+    <label>Mutant meat</label>
     <description>Mutant meat - Despite its appearance, it is considered food. If you decide to eat it, it is better to fry it first, heat treatment somewhat reduces the negative consequences.</description>
     <thingClass>ThingWithComps</thingClass>
     <selectable>true</selectable>
@@ -27,11 +27,11 @@
       <Mass>0.03</Mass>
       <Flammability>0.5</Flammability>
       <Nutrition>0.05</Nutrition>
-      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+      <FoodPoisonChanceFixedHuman>1.0</FoodPoisonChanceFixedHuman>
       <MarketValue>0.5</MarketValue>
     </statBases>
     <graphicData>
-      <texPath>Things/Item/Resource/TwistedMeat</texPath>
+      <texPath>Things/Item/Resource/Meat_Mutant</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <thingCategories>
