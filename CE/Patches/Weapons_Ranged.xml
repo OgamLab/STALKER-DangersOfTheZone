@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- === Tools === -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="STLKR_Gun_--AssaultRifle--"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>2.02</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== STLKR_Gun_AssaultRifle ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="STLKR_Gun_--AssaultRifle--"]/description</xpath>
+		<value>
+			<description>A versatile assault rifle with a shortened barrel, trading range and stopping power for decreased weight and bulk.\n\nIt also comes equipped with a hardened, bioferrite mini-burner capable of setting nearby targets ablaze with a stream of burning accelerant.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>STLKR_Gun_--AssaultRifle--</defName>
+		<statBases>
+			<Mass>4.35</Mass>
+			<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.00</SightsEfficiency>
+			<ShotSpread>0.14</ShotSpread>
+			<SwayFactor>1.17</SwayFactor>
+			<Bulk>9.5</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.16</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+			<warmupTime>1.1</warmupTime>
+			<range>48</range>
+			<burstShotCount>6</burstShotCount>
+			<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+			<soundCast>Shot_AssaultRifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>30</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+			<aimedBurstShotCount>3</aimedBurstShotCount>
+		</FireModes>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>
+			<li>CE_AI_Rifle</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="STLKR_Gun_--AssaultRifle--"]/comps/li[@Class="CompProperties_EquippableAbilityReloadable"]</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_UnderBarrel">
+				<standardLabel>switch to rifle</standardLabel>
+				<underBarrelLabel>switch to grenade launcher</underBarrelLabel>
+				<propsUnderBarrel>
+					<magazineSize>1</magazineSize>
+					<reloadTime>2.2</reloadTime>
+					<ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
+				</propsUnderBarrel>
+				<verbPropsUnderBarrel>
+					<recoilAmount>3.28</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
+					<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+					<warmupTime>1.1</warmupTime>
+					<range>44</range>
+					<minRange>5</minRange>
+					<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+					<burstShotCount>20</burstShotCount>
+					<soundCast>InfernoCannon_Fire</soundCast>
+					<muzzleFlashScale>12</muzzleFlashScale>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+				</verbPropsUnderBarrel>
+				<propsFireModesUnderBarrel>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+					<aimedBurstShotCount>1</aimedBurstShotCount>
+					<noSingleShot>true</noSingleShot>
+				</propsFireModesUnderBarrel>
+			</li>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="STLKR_Gun_--AssaultRifle--"]/graphicData</xpath>
+		<value>
+			<drawSize>(1.25,1.25)</drawSize>
+		</value>
+	</Operation>
+
+</Patch>
