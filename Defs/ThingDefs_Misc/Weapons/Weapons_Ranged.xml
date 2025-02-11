@@ -112,7 +112,7 @@
 
   <AbilityDef>
     <defName>STLKR_UnderBarrel_Grenade</defName> <!-- Stats. Change it to your liking -->
-    <label>underbarrel grenadelauncher</label>
+    <label>underbarrel grenade</label>
     <description>Fires a grenade that explodes upon impact.</description>
     <iconPath>UI/Abilities/Burner</iconPath>
     <displayOrder>200</displayOrder>
