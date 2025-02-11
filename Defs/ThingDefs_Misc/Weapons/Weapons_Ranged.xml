@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>STLKR_Gun_--AssaultRifle--</defName>
+    <label>--assault rifle--</label>
+    <description>--A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy.--</description>
+    <graphicData> <!-- Stats. Change it to your liking -->
+      <texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker> <!-- Stats. Change it to your liking -->
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <displayPriority>420</displayPriority>
+    </recipeMaker>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases> <!-- Stats. Change it to your liking -->
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+    </statBases>
+    <costList> <!-- Stats. Change it to your liking -->
+      <Steel>60</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <verbs> <!-- Stats. Change it to your liking -->
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>STLKR_Bullet_--AssaultRifle--</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>30.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags> <!-- Stats. Change it to your liking -->
+      <li>IndustrialGunAdvanced</li>
+      <li>AssaultRifle</li>
+    </weaponTags>
+    <tools> <!-- Stats. Change it to your liking -->
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>  <!-- === UnderBarrel Ability (Need reload)=== -->
+    <comps Inherit="False">
+      <li Class="CompProperties_EquippableAbilityReloadable">
+        <abilityDef>STLKR_UnderBarrel_Grenade</abilityDef>
+        <maxCharges>2</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>grenade</chargeNoun>
+        <ammoDef>Chemfuel</ammoDef>
+        <ammoCountPerCharge>10</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Biocodable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+
+ <!-- ====================== Bullet ====================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>STLKR_Bullet_--AssaultRifle--</defName>
+    <label>--assault rifle bullet--</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData><!-- Stats. Change it to your liking -->
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+ <!-- ====================== UnderBarrel ====================== -->
+
+  <AbilityDef>
+    <defName>STLKR_UnderBarrel_Grenade</defName>
+    <label>underbarrel grenadelauncher</label>
+    <description>Fires a grenade that explodes upon impact.</description>
+    <iconPath>UI/Abilities/Burner</iconPath>
+    <displayOrder>200</displayOrder>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>30.9</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      <warmupTime>2.5</warmupTime>
+      <soundCast>Mortar_LaunchA</soundCast>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>STLKR_UBLGrenade</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+ <!-- ====================== UnderBarrel Bullet ====================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>STLKR_UBLGrenade</defName>
+    <label>grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>1.9</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
+      <arcHeightFactor>0.55</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+      <explosionDelay>5</explosionDelay>
+    </projectile>
+  </ThingDef>
+</Defs>
