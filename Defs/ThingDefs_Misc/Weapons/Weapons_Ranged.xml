@@ -95,7 +95,7 @@
  <!-- ====================== Bullet ====================== -->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>STLKR_Bullet_--AssaultRifle--</defName>
+    <defName>STLKR_Bullet_--AssaultRifle--</defName> <!-- Stats. Change it to your liking -->
     <label>--assault rifle bullet--</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -111,13 +111,13 @@
  <!-- ====================== UnderBarrel ====================== -->
 
   <AbilityDef>
-    <defName>STLKR_UnderBarrel_Grenade</defName>
+    <defName>STLKR_UnderBarrel_Grenade</defName> <!-- Stats. Change it to your liking -->
     <label>underbarrel grenadelauncher</label>
     <description>Fires a grenade that explodes upon impact.</description>
     <iconPath>UI/Abilities/Burner</iconPath>
     <displayOrder>200</displayOrder>
     <aiCanUse>true</aiCanUse>
-    <verbProperties>
+    <verbProperties> <!-- Stats. Change it to your liking -->
       <verbClass>Verb_CastAbility</verbClass>
       <range>30.9</range>
         <targetParams>
@@ -136,14 +136,14 @@
  <!-- ====================== UnderBarrel Bullet ====================== -->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>STLKR_UBLGrenade</defName>
+    <defName>STLKR_UBLGrenade</defName> <!-- Stats. Change it to your liking -->
     <label>grenade</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
+    <projectile> <!-- Stats. Change it to your liking -->
       <speed>40</speed>
       <damageDef>Bomb</damageDef>
       <explosionRadius>1.9</explosionRadius>
