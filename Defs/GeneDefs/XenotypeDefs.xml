@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <XenotypeDef>
+    <defName>Hemosucker</defName>
+    <label>Hemosucker</label>
+    <description>Oh, these are hunters of hunters! Their camouflage is a dream! When they are camouflaged, they are almost invisible. If you are going after a bloodsucker, try to scare it off: you can only notice it when it moves. Also remember that this creature tries to come at its victim from behind and wrap its tentacles around his neck... damn, disgusting!.. In general, if you are unlucky and run into a family of bloodsuckers, always check that your back is clean.</description>
+    <descriptionShort>A semi-legendary monster - seasoned stalkers describe it as a tall, stooped humanoid with many tentacles where its mouth should be. According to them, this creature feeds with the help of its tentacles: by biting them into the neck of a living victim, it paralyzes its prey and sucks out its blood; after this procedure, only a dried-out, mummy-like shell remains from the person. The most amazing thing about the bloodsucker is its ability to become invisible. Apparently, these creatures are responsible for the death of a large number of stalkers. Few of the eyewitnesses remained alive - and, judging by the stories of these lucky ones, bloodsuckers prefer damp places like swamps and dungeons to live.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Bloodsucker</iconPath>
+    <soundDefOnImplant>PawnBecameSanguophage</soundDefOnImplant>
+    <generateWithXenogermReplicatingHediffChance>0.5</generateWithXenogermReplicatingHediffChance>
+    <xenogermReplicatingDurationLeftDaysRange>0.1~140</xenogermReplicatingDurationLeftDaysRange>
+    <combatPowerFactor>2.5</combatPowerFactor>
+    <displayPriority>-1000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <genes>
+      <li>Hemogenic</li>
+      <li>HemogenDrain</li>
+      <li>Bloodfeeder</li>
+      <li>LongjumpLegs</li>
+      <li>PsychicAbility_Enhanced</li>
+      <li>LowSleep</li>
+	  <li>BloodsuckingAbilities</li>
+      <li>MoveSpeed_Quick</li>
+      <li>MeleeDamage_Strong</li>
+      <li>DarkVision</li>
+	  <li>MonsterFingers</li>
+      <li>ToxResist_Total</li>
+      <li>WoundHealing_SuperFast</li>
+      <li>AptitudeStrong_Melee</li>
+      <li>VoiceMonster</li>
+      <li>Soulless_Eyes</li>
+	  <li>Skin_Underground</li>
+	  <li>Skin_Cave</li>
+	  <li>Skin_Mountain</li>
+	  <li>Skin_Swamp</li>
+	  <li>Skin_Urban</li>
+      <li>Hair_BaldOnly</li>
+	  <li>Beard_NoBeardOnly</li>
+      <li>BloodsuckingTerror</li>
+	  <li>Body_Hulk</li>
+	  <li>Jaw_monster</li>
+	  <li>NakedSpeed</li>
+	  <li>BloodsuckingHead_HeadType</li>
+      <li>Aggression_HyperAggressive</li>
+      <li>Robust</li>
+    </genes>
+  </XenotypeDef>
+
+
+</Defs>

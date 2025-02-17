@@ -105,9 +105,9 @@
     </tools>
   </ThingDef>
 
-   <PawnKindDef Name="BloodsuckerKind">
-    <defName>Bloodsucker</defName>
-    <label>Bloodsucker</label>
+   <PawnKindDef ParentName="MutantBase">
+    <defName>BloodsuckerWild</defName>
+    <label>Bloodsucker Wild</label>
     <race>Bloodsucker</race>
     <defaultFactionType>Entities</defaultFactionType>
     <immuneToGameConditionEffects>true</immuneToGameConditionEffects>
@@ -162,12 +162,79 @@
     </startingHediffs>
     <combatPower>70</combatPower>
     <meleeAttackInfectionPathways>
-      <li>EntityAttacked</li>
+      <li>HemosuckerBloodLoss</li>
+    </meleeAttackInfectionPathways>
+	 
+  </PawnKindDef>
+  
+   <PawnKindDef ParentName="MutantBase">
+    <defName>Bloodsucker</defName>
+    <label>Bloodsucker</label>
+    <race>Bloodsucker</race>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <immuneToGameConditionEffects>true</immuneToGameConditionEffects>
+    <immuneToTraps>true</immuneToTraps>
+    <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+    <alternateGraphicChance>0.75</alternateGraphicChance>
+    <alternateGraphics>
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+           <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+           <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+      
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+    </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.7</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <startingHediffs>
+		<li>
+        <def>AbnormalRegeneration</def>
+		</li>
+		<li>
+        <def>STLKR_ConsumedSanguophageHemogen</def>
+		</li>
+    </startingHediffs>
+    <combatPower>70</combatPower>
+    <meleeAttackInfectionPathways>
+      <li>HemosuckerBloodLoss</li>
     </meleeAttackInfectionPathways>
 	 
   </PawnKindDef>
   
   
-  
+   <InfectionPathwayDef>
+    <defName>HemosuckerBloodLoss</defName>
+    <label>Blood loss</label>
+    <pawnRequired>true</pawnRequired>
+  </InfectionPathwayDef>
+   
   
 </Defs>

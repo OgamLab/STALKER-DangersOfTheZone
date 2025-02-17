@@ -39,4 +39,132 @@
 			</li>
 		</comps>
 	</AbilityDef>
+	
+	
+   <AbilityDef>
+    <defName>roar</defName>
+    <label>monster roar</label>
+    <description>The monster's scream paralyzes the victim.</description>
+    <writeCombatLog>True</writeCombatLog>
+    <showPsycastEffects>False</showPsycastEffects>
+    <cooldownTicksRange>90~180</cooldownTicksRange> <!-- 1.5 to 3 seconds -->
+    <verbProperties>
+      <verbClass>Verb_AbilityShoot</verbClass>
+      <defaultProjectile>Bullet_horror</defaultProjectile>
+      <range>24.9</range>
+      <soundCast>Heatspikes_Shot</soundCast>
+      <soundCastTail>Heatspikes_Tail</soundCastTail>
+      <muzzleFlashScale>9</muzzleFlashScale>
+      <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+      <warmupTime>0</warmupTime>
+      <burstShotCount>12</burstShotCount>
+      <accuracyTouch>0.9</accuracyTouch>
+      <accuracyShort>0.8</accuracyShort>
+      <accuracyMedium>0.7</accuracyMedium>
+      <accuracyLong>0.6</accuracyLong>
+      <ai_IsWeapon>false</ai_IsWeapon>
+    </verbProperties>
+  </AbilityDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_horror</defName>
+    <label>horror</label>
+    <graphicData>
+      <texPath>Things/Projectile/Nociosphere_Heatspike</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Taser</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>90</speed>
+      <bulletChanceToStartFire>0</bulletChanceToStartFire>
+    </projectile>
+  </ThingDef>
+	
+  
+   <AbilityDef>
+    <defName>BloodsuckerInvisibility</defName>
+    <label>bloodsucker invisibility</label>
+    <description>The bloodsucker's ability to become invisible.</description>
+    <iconPath>UI/Abilities/Shadow_dance</iconPath>
+    <cooldownTicksRange>2000</cooldownTicksRange> <!-- 6 hours -->
+    <writeCombatLog>True</writeCombatLog>
+    <hotKey>Misc12</hotKey>
+    <targetRequired>false</targetRequired>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <statBases>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+      <warmupTime>1</warmupTime>
+      <range>19.9</range>
+      <targetable>false</targetable>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>PsychicInvisibility</hediffDef>
+        <psychic>True</psychic>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>BloodsuckerTerror</defName>
+    <label>Bloodsucker's cry</label>
+    <description>The cry of a bloodsucker that causes horror.</description>
+    <iconPath>UI/Abilities/Enraged</iconPath>
+    <cooldownTicksRange>7500</cooldownTicksRange> <!-- 3 hours -->
+    <warmupEffecter>HoraxianSpellDark_Warmup</warmupEffecter>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <writeCombatLog>true</writeCombatLog>
+    <charges>5</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <range>31.9</range>
+      <drawAimPie>true</drawAimPie>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>VoidTerrorCast</soundCast>
+	  <warmupEffecter>AnimalWarcall_Warmup</warmupEffecter>
+      <targetParams>
+        <canTargetLocations>false</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetMutants>false</canTargetMutants>
+        <neverTargetIncapacitated>true</neverTargetIncapacitated>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>TerrifyingHallucinations</stateDef>
+        <goodwillImpact>-25</goodwillImpact>
+        <forced>true</forced>
+      </li>
+      <li Class="CompProperties_AbilityConnectingFleckLine">
+        <fleckDef>PsycastPsychicLine</fleckDef>
+      </li>
+      <li Class="CompProperties_AbilityEffecterOnTarget">
+        <effecterDef>VoidTerror_Target</effecterDef>
+      </li>
+    </comps>
+  </AbilityDef>
 </Defs>
