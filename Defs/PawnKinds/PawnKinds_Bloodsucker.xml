@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BasePawn">
+    <defName>Bloodsucker</defName>
+    <label>Bloodsucker</label>
+    <description>A semi-legendary mutant encountered closer to the center of the Zone in various dungeons and abandoned places. Known for its ability to completely suck out the liquid contents of its victim and become invisible.Seasoned stalkers describe it as a tall, stooped humanoid with many tentacles where its mouth should be. According to them, this creature feeds with the help of its tentacles: by biting them into the neck of a living victim, it paralyzes its prey and sucks out its blood; after this procedure, only a dried-up, mummy-like shell remains from the person.Apparently, they are responsible for the death of a huge number of people in the Zone. Perhaps it is precisely because of their cunning and danger that so little is known about them, because few eyewitnesses remained alive.Bloodsuckers are immune to radiation. They are quite smart, which is confirmed by their attack tactics, and are not susceptible to the influence of the controller.</description>
+    <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
+    <statBases>
+      <MoveSpeed>7.83</MoveSpeed>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+      <PsychicSensitivity>2</PsychicSensitivity>
+      <MinimumContainmentStrength>30</MinimumContainmentStrength>
+      <LeatherAmount>20</LeatherAmount>
+      <MeatAmount>70</MeatAmount>
+      <ToxicResistance>0.5</ToxicResistance>
+    </statBases>
+    <tradeability>None</tradeability>
+    <race>
+      <thinkTreeMain>Sightstealer</thinkTreeMain>
+      <thinkTreeConstant>SightstealerConstant</thinkTreeConstant>
+      <body>Human</body>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>0.75</baseHealthScale>
+      <intelligence>ToolUser</intelligence>
+      <needsRest>false</needsRest>
+      <bloodDef>Filth_DarkBlood</bloodDef>
+      <bleedRateFactor>0.5</bleedRateFactor>
+      <fleshType>EntityFlesh</fleshType>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <specificMeatDef>Meat_mutant</specificMeatDef>
+      <leatherDef>Leather_Dread</leatherDef>
+      <hasGenders>false</hasGenders>
+      <foodType>Meat</foodType>
+      <lifeExpectancy>50</lifeExpectancy>
+      <soundCallIntervalRange>500~1000</soundCallIntervalRange>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <trainability>None</trainability>
+      <canBecomeShambler>true</canBecomeShambler>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundCall>Pawn_Bloodsucker_Call</soundCall>
+          <soundWounded>Pawn_Bloodsucker_Wounded</soundWounded>
+          <soundDeath>Pawn_Bloodsucker_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <hediffGiverSets>
+        <li>AnomalyEntity</li>
+      </hediffGiverSets>
+      <corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+    </race>
+    <comps>
+      <li>
+        <compClass>CompSightstealer</compClass>
+      </li>
+	   <li Class="CompProperties_CauseHediff_AoE">
+        <hediff>Fear</hediff>
+        <range>5.9</range>
+        <canTargetSelf>false</canTargetSelf>
+        <drawLines>false</drawLines>
+        <ignoreMechs>true</ignoreMechs>
+      </li>
+	   
+    </comps>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <labelNoLocation>claw</labelNoLocation>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>7.0</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>right claw</label>
+        <labelNoLocation>claw</labelNoLocation>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>7.0</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+   <PawnKindDef ParentName="MutantBase">
+    <defName>BloodsuckerWild</defName>
+    <label>Bloodsucker Wild</label>
+    <race>Bloodsucker</race>
+    <defaultFactionType>Entities</defaultFactionType>
+    <immuneToGameConditionEffects>true</immuneToGameConditionEffects>
+    <immuneToTraps>true</immuneToTraps>
+    <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+    <alternateGraphicChance>0.75</alternateGraphicChance>
+    <alternateGraphics>
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+           <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+           <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+      
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+    </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.7</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <startingHediffs>
+		<li>
+        <def>AbnormalRegeneration</def>
+		</li>
+		<li>
+        <def>STLKR_ConsumedSanguophageHemogen</def>
+		</li>
+    </startingHediffs>
+    <combatPower>70</combatPower>
+    <meleeAttackInfectionPathways>
+      <li>HemosuckerBloodLoss</li>
+    </meleeAttackInfectionPathways>
+	 
+  </PawnKindDef>
+  
+   <PawnKindDef ParentName="MutantBase">
+    <defName>Bloodsucker</defName>
+    <label>Bloodsucker</label>
+    <race>Bloodsucker</race>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <immuneToGameConditionEffects>true</immuneToGameConditionEffects>
+    <immuneToTraps>true</immuneToTraps>
+    <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+    <alternateGraphicChance>0.75</alternateGraphicChance>
+    <alternateGraphics>
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+           <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+           <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+      
+      <li>
+        <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+        <dessicatedGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedGraphicData>
+      </li>
+    </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Bloodsucker</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.7</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bloodsucker/Dessicated_Bloodsucker</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <startingHediffs>
+		<li>
+        <def>AbnormalRegeneration</def>
+		</li>
+		<li>
+        <def>STLKR_ConsumedSanguophageHemogen</def>
+		</li>
+    </startingHediffs>
+    <combatPower>70</combatPower>
+    <meleeAttackInfectionPathways>
+      <li>HemosuckerBloodLoss</li>
+    </meleeAttackInfectionPathways>
+	 
+  </PawnKindDef>
+  
+  
+   <InfectionPathwayDef>
+    <defName>HemosuckerBloodLoss</defName>
+    <label>Blood loss</label>
+    <pawnRequired>true</pawnRequired>
+  </InfectionPathwayDef>
+   
+  
+</Defs>

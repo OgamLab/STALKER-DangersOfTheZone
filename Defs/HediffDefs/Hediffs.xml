@@ -143,4 +143,139 @@
 			</li>
 		</stages>
 	</HediffDef>
+
+  <HediffDef>
+    <defName>AbnormalRegeneration</defName>
+    <label>Abnormal regeneration</label>
+    <description>Regeneration-This ability makes it difficult to kill a bloodsucker. Their regeneration is high in itself compared to other living creatures, and foreign blood only speeds it up. The main feature is the combination of invisibility and regeneration - when the bloodsucker is invisible, regeneration is higher, and the damage received is weaker..</description>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <regeneration>500</regeneration>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>Fear</defName>
+    <label>primordial horror</label>
+    <hediffClass>Hediff_PainField</hediffClass>
+    <description>Primordial horror of the monster.</description>
+    <everCurableByItem>false</everCurableByItem>
+	<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.2</offset>
+					</li>
+					
+				</capMods>
+			</li>
+		</stages>
+    <comps>
+      <li Class="HediffCompProperties_PainField">
+        <painDistance>0.9</painDistance>
+        <activatedMinimum>0.05</activatedMinimum>
+      </li>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>50</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_Link">
+        <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+      </li>
+    </comps>
+  </HediffDef>
+  
+   <HediffDef>
+    <defName>Hemosucker_Claws</defName>
+    <label>Hemosucker claws</label>
+    <description>Carriers of this gene have hands that partially resemble dinosaur claws. This has a slight impact on their ability to manipulate objects, but allows them to deal deep cuts in melee combat.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claws</label>
+            <capacities>
+              <li>Cut</li>
+            </capacities>
+            <power>16</power>
+            <cooldownTime>1.8</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <addedPartProps>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>HemosuckerBloodLoss</defName>
+    <label>blood loss</label>
+    <description>A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.
+\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply.</description>
+    <lethalSeverity>1</lethalSeverity>
+    <stages>
+      <li>
+        <label>minor</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>0.15</minSeverity>
+        <label>minor</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.30</minSeverity>
+        <label>moderate</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.45</minSeverity>
+        <label>severe</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.4</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.60</minSeverity>
+        <label>extreme</label>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.4</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	 <possiblePathways>
+      <HemosuckerBloodLoss>{SOURCEKIND_label} attack</HemosuckerBloodLoss>
+    </possiblePathways>
+  </HediffDef>
 </Defs>

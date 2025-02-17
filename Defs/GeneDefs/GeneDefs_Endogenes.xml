@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <GeneDef ParentName="GeneVoiceBase">
+    <defName>VoiceMonster</defName>
+    <label>Voice of the monster</label>
+    <description>Carriers of this gene can make guttural, low-pitched sounds that resemble the voice of a monster. These sounds inspire anxiety and fear to others.</description>
+    <iconPath>UI/Icons/Genes/Monstrous_voice</iconPath>
+    <displayOrderInCategory>130</displayOrderInCategory>
+    <soundCall>Pawn_Furskin_Call</soundCall>
+    <soundDeath>Pawn_Furskin_Death</soundDeath>
+    <soundWounded>Pawn_Furskin_Wounded</soundWounded>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>roarer</symbol></li>
+        <li><symbol>growler</symbol></li>
+        <li><symbol>snarler</symbol></li>
+        <li><symbol>bellower</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>roar</symbol></li>
+        <li><symbol>growl</symbol></li>
+        <li><symbol>snarl</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>roar</symbol></li>
+        <li><symbol>snarl</symbol></li>
+        <li><symbol>growl</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+ <GeneDef ParentName="GeneJawBase">
+    <defName>Jaw_monster</defName>
+    <label>Jawless</label>
+    <description>Carriers of this gene, due to the lack of a lower jaw, eat slowly and methodically, but this does not prevent them from satisfying their hunger.</description>
+    <iconPath>UI/Icons/Genes/Jawless</iconPath>
+    <forcedHeadTypes>
+      <li>Male_HeavyJawNormal</li>
+      <li>Female_HeavyJawNormal</li>
+    </forcedHeadTypes>
+	 <statOffsets>
+          <PawnBeauty>-1</PawnBeauty>
+     </statOffsets>
+    <displayOrderInCategory>95</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>grunt</symbol></li>
+        <li><symbol>jaw</symbol></li>
+        <li><symbol>lug</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>grunt</symbol></li>
+        <li><symbol>jaw</symbol></li>
+        <li><symbol>lug</symbol></li>
+        <li><symbol>thal</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+ <GeneDef ParentName="GeneHandsBase">
+    <defName>MonsterFingers</defName>
+    <label>Hemosucker Hands</label>
+    <description>Carriers of this gene can boast long, clawed fingers that turn their hands into deadly weapons. Their advanced motor skills make them ideal for precise work.</description>
+    <iconPath>UI/Icons/Genes/Bloodhands</iconPath>
+    <displayOrderInCategory>320</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>1</biostatMet>
+	<statOffsets>
+           <MeleeDodgeChance>1.1</MeleeDodgeChance>
+		   <MeleeCritChance>1.5</MeleeCritChance>
+     </statOffsets>
+    <capMods>
+      <li>
+        <capacity>Manipulation</capacity>
+        <postFactor>1.1</postFactor>
+      </li>
+    </capMods>
+   <symbolPack>
+		<wholeNameSymbols>
+			<li>
+				<symbol>claws</symbol>
+			</li>
+		</wholeNameSymbols>
+		<prefixSymbols>
+			<li>
+				<symbol>claw</symbol>
+			</li>
+		</prefixSymbols>
+		<suffixSymbols>
+			<li>
+				<symbol>claw</symbol>
+			</li>
+			<li>
+				<symbol>sharp</symbol>
+			</li>
+			<li>
+				<symbol>hook</symbol>
+			</li>
+			<li>
+				<symbol>predator</symbol>
+			</li>
+		</suffixSymbols>
+	</symbolPack>
+	<modExtensions>
+		<li Class="VanillaGenesExpanded.GeneExtension">
+			<hediffsToBodyParts>
+				<li>
+					<hediff>Hemosucker_Claws</hediff>
+						<bodyparts>
+							<li>Hand</li>
+							<li>Hand</li>
+						</bodyparts>
+				</li>
+			</hediffsToBodyParts>
+		</li>
+	</modExtensions>
+  </GeneDef>
+  
+  
+  <GeneDef>
+    <defName>BloodsuckingAbilities</defName>
+    <label>Shadow Dance</label>
+    <description>Carriers of this gene can become invisible, which makes them ideal hunters. However, any attack reveals their location.</description>
+    <iconPath>UI/Icons/Genes/Shadow_dance</iconPath>
+    <displayCategory>Ability</displayCategory>
+    <abilities>
+      <li>BloodsuckerInvisibility</li>
+	  <li>BloodsuckerTerror</li>
+	 <!-- <li>AgonyPulse</li>-->
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>BloodsuckerInvisibility</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatMet>3</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>Invisibility</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>war</symbol></li>
+        <li><symbol>Invisibility</symbol></li>
+        <li><symbol>cry</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>caller</symbol></li>
+        <li><symbol>crier</symbol></li>
+        <li><symbol>hailer</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+   <GeneDef>
+    <defName>BloodsuckingTerror</defName>
+    <label>Shadow Terror</label>
+    <description>The cry of a bloodsucker that causes horror.</description>
+    <iconPath>UI/Icons/Genes/Enraged</iconPath>
+    <displayCategory>Ability</displayCategory>
+    <abilities>
+	  <li>BloodsuckerTerror</li>
+	 <!-- <li>AgonyPulse</li>-->
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>BloodsuckerTerror</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatMet>3</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>Terror</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>war</symbol></li>
+        <li><symbol>Terror</symbol></li>
+        <li><symbol>cry</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>caller</symbol></li>
+        <li><symbol>crier</symbol></li>
+        <li><symbol>hailer</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <HeadTypeDef>
+  <defName>BloodsuckingHead_HeadType</defName>
+   <graphicPath>Things/BodyParts/BloodsuckingHead/bloodsucker_Average</graphicPath>
+    <randomChosen>false</randomChosen>	
+    <requiredGenes>
+      <li>BloodsuckingHead_HeadType</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+  <GeneDef ParentName="GeneJawBase">
+    <defName>BloodsuckingHead_HeadType</defName>
+    <label>bloodsucker head</label>
+    <description>Carriers of this gene have bloodsucker squid like facial tentacles.</description>
+    <iconPath>UI/Icons/Xenotypes/Bloodsucker</iconPath>
+    <forcedHeadTypes>
+      <li>BloodsuckingHead_HeadType</li>
+    </forcedHeadTypes>
+	<statFactors>
+    </statFactors>
+	<missingGeneRomanceChanceFactor>0.1</missingGeneRomanceChanceFactor>
+    <displayOrderInCategory>100</displayOrderInCategory>
+	    <biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+
+    <exclusionTags>
+      <li>Jaw</li>
+    </exclusionTags>
+  </GeneDef>
+
+ <GeneDef ParentName="GeneEyeColor">
+		<defName>Soulless_Eyes</defName>
+		<label>Soulless eyes</label>
+		<labelShortAdj>Soulless eyes</labelShortAdj>
+		<description>Carriers of this gene have Soulless eyes.</description>
+		<iconPath>UI/Icons/Genes/Soulless</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<ignoreDarkness>true</ignoreDarkness>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/BodyParts/Eyes/EyeM</texPath>
+				<texPathFemale>Things/BodyParts/Eyes/EyeF</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Right</side>
+				
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Things/BodyParts/Eyes/EyeM</texPath>
+				<texPathFemale>Things/BodyParts/Eyes/EyeF</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.2</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.25)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+	</GeneDef>
+	   
+	   
+	   
+	   
+	   
+	      <!--Skin-->
+		  <GeneDef ParentName="GeneSkinColorOverride">
+			<defName>Skin_Underground</defName>
+			<label>Underground skin</label>
+			<labelShortAdj>Underground</labelShortAdj>
+			<description>Carriers of this gene produce a pigment that gives their skin a Underground color.</description>
+			<randomBrightnessFactor>0.2</randomBrightnessFactor>
+			<skinColorOverride>(130, 117, 99)</skinColorOverride>
+			<displayOrderInCategory>65</displayOrderInCategory>
+			<symbolPack>
+			  <prefixSymbols>
+				<li><symbol>dark</symbol></li>
+				<li><symbol>red</symbol></li>
+				<li><symbol>dusty</symbol></li>
+			  </prefixSymbols>
+			</symbolPack>
+		  </GeneDef>
+		  <GeneDef ParentName="GeneSkinColorOverride">
+			<defName>Skin_Cave</defName>
+			<label>Cave skin</label>
+			<labelShortAdj>Cave</labelShortAdj>
+			<description>Carriers of this gene produce a pigment that gives their skin a Cave color.</description>
+			<randomBrightnessFactor>0.2</randomBrightnessFactor>
+			<skinColorOverride>(60, 60, 78)</skinColorOverride>
+			<displayOrderInCategory>65</displayOrderInCategory>
+			<symbolPack>
+			  <prefixSymbols>
+				<li><symbol>dark</symbol></li>
+				<li><symbol>red</symbol></li>
+				<li><symbol>dusty</symbol></li>
+			  </prefixSymbols>
+			</symbolPack>
+		  </GeneDef>
+		  <GeneDef ParentName="GeneSkinColorOverride">
+			<defName>Skin_Mountain</defName>
+			<label>Mountain skin</label>
+			<labelShortAdj>Cave</labelShortAdj>
+			<description>Carriers of this gene produce a pigment that gives their skin a Mountain color.</description>
+			<randomBrightnessFactor>0.2</randomBrightnessFactor>
+			<skinColorOverride>(125, 127, 125)</skinColorOverride>
+			<displayOrderInCategory>65</displayOrderInCategory>
+			<symbolPack>
+			  <prefixSymbols>
+				<li><symbol>dark</symbol></li>
+				<li><symbol>red</symbol></li>
+				<li><symbol>dusty</symbol></li>
+			  </prefixSymbols>
+			</symbolPack>
+		  </GeneDef>
+		  <GeneDef ParentName="GeneSkinColorOverride">
+			<defName>Skin_Swamp</defName>
+			<label>Swamp skin</label>
+			<labelShortAdj>Swamp</labelShortAdj>
+			<description>Carriers of this gene produce a pigment that gives their skin a Swamp color.</description>
+			<randomBrightnessFactor>0.2</randomBrightnessFactor>
+			<skinColorOverride>(148, 162, 110)</skinColorOverride>
+			<displayOrderInCategory>65</displayOrderInCategory>
+			<symbolPack>
+			  <prefixSymbols>
+				<li><symbol>dark</symbol></li>
+				<li><symbol>red</symbol></li>
+				<li><symbol>dusty</symbol></li>
+			  </prefixSymbols>
+			</symbolPack>
+		  </GeneDef>
+		  <GeneDef ParentName="GeneSkinColorOverride">
+			<defName>Skin_Urban</defName>
+			<label>Urban skin</label>
+			<labelShortAdj>Urban</labelShortAdj>
+			<description>Carriers of this gene produce a pigment that gives their skin a Urban color.</description>
+			<randomBrightnessFactor>0.2</randomBrightnessFactor>
+			<skinColorOverride>(139, 140, 122)</skinColorOverride>
+			<displayOrderInCategory>65</displayOrderInCategory>
+			<symbolPack>
+			  <prefixSymbols>
+				<li><symbol>dark</symbol></li>
+				<li><symbol>red</symbol></li>
+				<li><symbol>dusty</symbol></li>
+			  </prefixSymbols>
+			</symbolPack>
+		  </GeneDef>
+		  
+		  
+		  
+ <!-- <GeneDef ParentName="GeneBodyBase">
+    <defName>Body_Bloodsucker</defName>
+    <label>Bloodsucker body</label>
+    <description>Carriers can have large bodies. A person can have more than one body type gene; one body type will be chosen among those that are allowed.</description>
+    <iconPath>UI/Icons/Genes/Body</iconPath>
+    <bodyType>BloodsuckerBodies</bodyType>
+    <displayOrderInCategory>30</displayOrderInCategory>
+  </GeneDef>-->
+  
+</Defs>
