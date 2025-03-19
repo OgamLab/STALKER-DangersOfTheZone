@@ -114,7 +114,7 @@
     </tradeTags>
   </ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBase" Name="RatKindBase">
+  <PawnKindDef ParentName="AnimalKindBase" Name="JerboaKindBase">
     <defName>Jerboa</defName>
     <label>Jerboa</label>
     <race>Jerboa</race>
@@ -172,6 +172,61 @@
   </PawnKindDef>
 
 
- 
+  <PawnKindDef ParentName="AnimalKindBase" Name="LabJerboaKindBase">
+    <defName>JerboaLab</defName>
+    <label>Lab Jerboa</label>
+    <race>Jerboa</race>
+    <combatPower>30</combatPower>
+	<wildGroupSize>2~10</wildGroupSize>
+	<canArriveManhunter>true</canArriveManhunter>
+    <ecoSystemWeight>0.20</ecoSystemWeight>
+	<startingHediffs>
+      <li>
+        <def>AbnormalFeeling</def>
+      </li>
+    </startingHediffs>
+	<alternateGraphicChance>0.5</alternateGraphicChance>
+	<alternateGraphics>
+      <li><texPath>Things/Pawn/Animal/Tushkan/Tushkan_2</texPath></li>
+    </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Tushkan/Tushkan</texPath>
+          <color>(250,250,250)</color>
+          <drawSize>2.0</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
+          <drawSize>2.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Tushkan/Tushkan</texPath>
+          <color>(250,250,250)</color>
+          <drawSize>2.1</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
+          <drawSize>2.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Tushkan/Tushkan</texPath>
+          <color>(250,250,250)</color>
+          <drawSize>2.25</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
+          <drawSize>2.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
 
 </Defs>
