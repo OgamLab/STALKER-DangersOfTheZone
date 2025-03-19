@@ -41,13 +41,13 @@
 	</AbilityDef>
 	
 	
-   <AbilityDef>
+ <!--  <AbilityDef>
     <defName>roar</defName>
     <label>monster roar</label>
     <description>The monster's scream paralyzes the victim.</description>
     <writeCombatLog>True</writeCombatLog>
     <showPsycastEffects>False</showPsycastEffects>
-    <cooldownTicksRange>90~180</cooldownTicksRange> <!-- 1.5 to 3 seconds -->
+    <cooldownTicksRange>90~180</cooldownTicksRange> <!{1}** 1.5 to 3 seconds **{1}>
     <verbProperties>
       <verbClass>Verb_AbilityShoot</verbClass>
       <defaultProjectile>Bullet_horror</defaultProjectile>
@@ -81,7 +81,7 @@
       <bulletChanceToStartFire>0</bulletChanceToStartFire>
     </projectile>
   </ThingDef>
-	
+	-->
   
    <AbilityDef>
     <defName>BloodsuckerInvisibility</defName>
@@ -167,4 +167,43 @@
       </li>
     </comps>
   </AbilityDef>
+  
+  
+  
+  <ThingDef ParentName="BaseBullet" Name="PsyBase" Abstract="True">
+    <label>spike</label>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Psy</damageDef>
+      <armorPenetrationBase>1</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>15</speed>
+	 <!-- <soundCast>VoidPsyCast</soundCast>-->
+    </projectile>
+  </ThingDef>
+
+  <!-- Toughspike/Trispike -->
+
+  <AbilityDef ParentName="SpikeLaunchBase">
+    <defName>SpikeLaunch_Psy</defName>
+	  <showPsycastEffects>True</showPsycastEffects>
+    <verbProperties>
+      <range>15.9</range>
+      <defaultProjectile>Spike_Psy</defaultProjectile>
+	 <aimingLineMote>Mote_FleshmelterBolt_Aim</aimingLineMote>
+      <aimingChargeMote>Mote_FleshmelterBolt_Charge</aimingChargeMote> 
+      <aimingTargetMote>Mote_FleshmelterBolt_Target</aimingTargetMote> 
+    </verbProperties>
+  </AbilityDef>
+  <ThingDef ParentName="PsyBase">
+    <defName>Spike_Psy</defName>
+    <graphicData>
+      <texPath>Things/Projectile/Projectile_psy</texPath>
+    </graphicData>
+    <projectile>
+      <damageAmountBase>9</damageAmountBase>
+    </projectile>
+  </ThingDef>
 </Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  
+ <DamageDef>
+    <defName>Psy</defName>
+    <label>psychic</label>
+    <externalViolence>true</externalViolence>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <deathMessage>{0} has been killed by a psychic attack.</deathMessage>
+    <hediff>PsyInjury</hediff>
+   <!-- <hediffSkin>PsychicInjurySkin</hediffSkin>
+    <hediffSolid>PsychicInjurySolid</hediffSolid>-->
+  </DamageDef>
+</Defs>

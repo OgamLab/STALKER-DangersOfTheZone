@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  
+
+  <SoundDef>
+    <defName>VoidPsyCast</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Controller/Void_Cast</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35</volumeRange>
+        <pitchRange>0.9~1.1</pitchRange>
+        <distRange>0~50</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+</Defs>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ========== Spike Base ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="PsyBase"]/projectile</xpath>
+		<value>
+			<thingClass>CombatExtended.BulletCE</thingClass>
+			<projectile Class="CombatExtended.ProjectilePropertiesCE">
+				<damageDef>Psy</damageDef>
+				<speed>17</speed>
+				 <explosionRadius>1.5</explosionRadius>
+				<damageAmountBase>10</damageAmountBase>
+			</projectile>
+		</value>
+	</Operation>
+
+	<!-- ========== Tough/Tri Spike ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/AbilityDef[defName="SpikeLaunch_Psy"]/verbProperties</xpath>
+		<value>
+			<verbProperties Class="CombatExtended.VerbPropertiesCE">
+				<range>18.9</range>
+				<warmupTime>3.5</warmupTime>
+				<defaultProjectile>Spike_Psy</defaultProjectile>
+				   <soundCast>VoidPsyCast</soundCast>
+				   <aimingLineMote>Mote_FleshmelterBolt_Aim</aimingLineMote>
+                   <aimingChargeMote>Mote_FleshmelterBolt_Charge</aimingChargeMote> 
+                  <!-- <aimingChargeMoteOffset>1.07</aimingChargeMoteOffset>
+                   <aimingLineMoteFixedLength>15.9</aimingLineMoteFixedLength>-->
+                   <aimingTargetMote>Mote_FleshmelterBolt_Target</aimingTargetMote> 
+			</verbProperties>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Spike_Psy"]/projectile</xpath>
+		<value>
+			<projectile Class="CombatExtended.ProjectilePropertiesCE">
+				<damageAmountBase>11</damageAmountBase>
+				<armorPenetrationSharp>12</armorPenetrationSharp>
+				<armorPenetrationBlunt>16</armorPenetrationBlunt>
+			</projectile>
+		</value>
+	</Operation>
+
+
+
+</Patch>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+ <SoundDef>
+    <defName>Pawn_Controller_Call</defName>  
+    <context>MapOnly</context>      
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+	       <clipPath>Controller/Call</clipPath>
+	      </li>
+        </grains>      
+        <volumeRange>16~25</volumeRange>      
+        <pitchRange>0.9082353~1.114706</pitchRange>      
+        <distRange>0~50</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+
+<SoundDef>
+    <defName>Pawn_Controller_Wounded</defName>  
+    <context>MapOnly</context>      
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+	       <clipPath>Controller/Wounded</clipPath>
+	      </li>
+        </grains>      
+        <volumeRange>16~25</volumeRange>      
+        <pitchRange>0.9082353~1.114706</pitchRange>      
+        <distRange>0~50</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

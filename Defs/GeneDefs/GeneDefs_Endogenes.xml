@@ -66,9 +66,7 @@
     <displayOrderInCategory>320</displayOrderInCategory>
     <biostatCpx>1</biostatCpx>
     <biostatMet>1</biostatMet>
-	<statOffsets>
-           <MeleeDodgeChance>1.1</MeleeDodgeChance>
-		   <MeleeCritChance>1.5</MeleeCritChance>
+	 <statOffsets>
      </statOffsets>
     <capMods>
       <li>
